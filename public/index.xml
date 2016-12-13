@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stanley Zheng</title>
+    <link>https://blog.stanzheng.com/index.xml</link>
+    <description>Recent content on Stanley Zheng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Dec 2016 16:50:46 -0400</lastBuildDate>
+    <atom:link href="https://blog.stanzheng.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RC 3: Applying to the Recurse Center</title>
+      <link>https://blog.stanzheng.com/recurse/the-application-process/</link>
+      <pubDate>Sun, 11 Dec 2016 16:50:46 -0400</pubDate>
+      
+      <guid>https://blog.stanzheng.com/recurse/the-application-process/</guid>
+      <description>
+
+&lt;pre&gt;&lt;code&gt;# ~Active Draft Advisory~
+# The content may get refined and elaborated but this is a final rough draft. To get more content out the door, I&#39;m openly publishing more of my blogs and going back to revise from feedback.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notes from past Recursers on applying to recurse helped me navigate the process and keep my sanity. &lt;a href=&#34;http://dev.jdherg.com/posts/2015/07/20/the-recurse-center-a-qa-for-past-me/&#34;&gt;John Hergenroeder&amp;rsquo;s&lt;/a&gt; was especially insightful so I hope this can do the same and add another data point.&lt;/p&gt;
+
+&lt;h1 id=&#34;high-level-timeline&#34;&gt;High-level timeline&lt;/h1&gt;
+
+&lt;p&gt;This is my timeline, I wanted to join Winter 1 which started in November so I made sure to follow up as fast as possible.&lt;/p&gt;
+
+&lt;h2 id=&#34;timeline&#34;&gt;Timeline&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;October 7  - Started Application&lt;/li&gt;
+&lt;li&gt;October 9  - Applied&lt;/li&gt;
+&lt;li&gt;October 14 - Initial Callback&lt;/li&gt;
+&lt;li&gt;October 15 - First Round interview&lt;/li&gt;
+&lt;li&gt;October 17 - Notification for Second Round&lt;/li&gt;
+&lt;li&gt;October 19 - Second Round interview&lt;/li&gt;
+&lt;li&gt;October 23 - Admission Notice&lt;/li&gt;
+&lt;li&gt;October 25 - Invited to RC Community Forum &amp;amp;&amp;amp; Github Wiki&lt;/li&gt;
+&lt;li&gt;November 7 - Day 1&lt;/li&gt;
+&lt;li&gt;February 7 - Last day
+&lt;br/&gt;
+&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;submit-an-application&#34;&gt;Submit an Application&lt;/h2&gt;
+
+&lt;p&gt;For the &lt;a href=&#34;https://www.recurse.com/apply/retreat&#34;&gt;initial application&lt;/a&gt;, it asks you a few questions and asks you to submit a succinct code gist that doesn&amp;rsquo;t use frameworks or require too much background knowledge to be understood by a reader. There are a few problems on the application pages you&amp;rsquo;re encouraged to pick or to BYOC (Bring-Your-Own-Code).&lt;/p&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t have anything on hand, so that saturday I spent the afternoon coding Boggle in Python on the CLI.
+I was nervous about choosing a right idea, looking for one that was not too simple to code but easy to understand. Making a game was sounded fine but many of the graphics libraries or rendering to browser would add more complexity so I paired down the program by just making it CLI based. At a point I was messing around with &lt;a href=&#34;https://en.wikipedia.org/wiki/Ncurses&#34;&gt;ncurses&lt;/a&gt; but after spending a few hours failing to make it bend to my will I decided &lt;code&gt;print&lt;/code&gt; would do. After finishing my program and cleaning it up, the next part was the written application. I spent the rest of the night writing and revising the written application and exhaustinly submitted the following Sunday night. After this you get a confirmation from Recurse that&amp;rsquo;d you be contacted either way in the next few days. For my code sample I implemented &lt;a href=&#34;https://gist.github.com/stanzheng/d41bd3cada14c3b6310f33f0793e4ec2&#34;&gt;Boggle/Ruzzle in python in ~200 LOC&lt;/a&gt;. In retrospect, it seems like it didnt&amp;rsquo;t matter much what the idea was but having code that was understandable and can be elaborated later on is key.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-few-days-later&#34;&gt;A few days later &amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;If you get called back, each of the subsequent interviews are scheduled through the Recurse site and take at most ~30 minutes. The interview are conducted over screen sharing and VOIP; We used Skype. You talk to two different admission officers; &lt;em&gt;Recurse Center&lt;/em&gt; admission officers are Recurse Alumni themselves and are the type of wonderful people you meet through the program. One handles the initial interview, the second handles the coding interview. The &lt;a href=&#34;https://www.recurse.com/faq&#34;&gt;Recurse Apply FAQ&lt;/a&gt; is extremely well detailed and accurate, so I won&amp;rsquo;t duplicate any comments.&lt;/p&gt;
+
+&lt;p&gt;With my initial interview, I had it with David B. It was a very casual conversation about why I wanted to do Recurse. The interview is split into two portions, one where the interviewer asks questions and the interviewer asks questions. I felt like we were moving through a million thoughts a minute and very quickly the half hour was up. I left the interview feeling like there was more to be said and was unsure if what I wanted to communicate was conveyed in the conversation. There&amp;rsquo;s not much preparation you can do for this interview besides making sure you&amp;rsquo;re succinct and on topic. Having a few mental points that you want to convey or talk about isn&amp;rsquo;t too bad but the interviewer has read your written application before so try not to regurgitate word for word specific points.&lt;/p&gt;
+
+&lt;h2 id=&#34;two-days-later&#34;&gt;Two days later&lt;/h2&gt;
+
+&lt;p&gt;I got an email @10PM on Monday for a follow-up interview. I was super relieved and excited to move on to the next stage of the process. When I went to sign up for a session there wasn&amp;rsquo;t any timeslots. I was grateful that Recurse Admissions was able to find time to squeeze me in at night. I scheduled a follow up with Simon W. to do a thirty minute Wednesday night session. For the second interview, they ask you to pair with the interviewer. You can build something else on top of preexisting code you&amp;rsquo;ve written or picked one of the suggested problems. I ended up choosing the same gist of code for the sake of time and building scoring into the program. I was super nervous and the night before re-linted my code, added unit tests and changed development workflows so the interview would go smoother.&lt;/p&gt;
+
+&lt;p&gt;We once again did it over Skype, this session was at 9pm at night. We were both US east coast based but many recursers are from all over the world. You only get 30 minutes and they go by &lt;em&gt;fast&lt;/em&gt;. I chose something relatively understandable for my game &lt;em&gt;Scoring&lt;/em&gt;. But in Boggle/Ruzzle it also has &lt;a href=&#34;http://ruzzleonline.net/ruzzle-tips-to-improve-your-ruzzle-score/&#34;&gt;dynamic bonus word scoring&lt;/a&gt; based on length and letters so it made it an interesting problem to walk through. I was going to first do simple scoring just based on the length of the words and move into multipliers. I had only done pair programming in a traditional sense in one class in college and spent a day &lt;a href=&#34;https://www.google.com/search?q=pair+programming+tips&#34;&gt;brushing up on pairing techniques&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sure enough like the first interview, 30 minutes quickly approached and we were still in the middle of refactoring, a little under half of where I&amp;rsquo;d expect I&amp;rsquo;d be at this point of the pairing session. We verbally talked about how we could attack the next portion and the session was over.&lt;/p&gt;
+
+&lt;p&gt;I felt confident I was able to eloquate myself clearly and communicate where we were going in the project. Simon W. had good feedback and was a fun navigator. He even taught me a factoid about &lt;a href=&#34;http://stackoverflow.com/questions/364802/generator-comprehension&#34;&gt;generator comprehensions which fed into sum&lt;/a&gt;. I had done Python 2.7 for most of my previous job and had only used 3x for personal projects. The tone of the interview was also very informal and overall pleasant.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-wait&#34;&gt;The Wait&lt;/h2&gt;
+
+&lt;p&gt;At this point, I was at the end, either I was in or out. This was the most nerve racking part of the process. For four days I was super anxious whether or not I would be packing up my life and moving 300 miles up to NYC. I tried to keep everything in my mind. At this point, I had been going to conferences and code retreats to keep learning and stop stressing. I got the admission notice while I was at &lt;a href=&#34;https://blog.stanzheng.com/post/all-things-open/&#34;&gt;All Things Open&lt;/a&gt;. I was extremely relieved and now anxious to know what came next.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-was-it&#34;&gt;How was it?&lt;/h2&gt;
+
+&lt;p&gt;All in all the process was very short. From the time they received my application and my admission, it was 9 days. Even less if you discount time spent waiting inbetween interviews. I liken the process to the ideal college application process if it was actually sane and transparent. With Recurse admissions everything was communicated, the process was absolutely transparent and nothing was ambiguous. The process left me feeling confident going to Recurse would be a good fit and more excited about the future. I&amp;rsquo;m at the half way point of my batch and I feel more sure than ever that this was a good choice and I hope it encourages someone to apply and maybe even calm your nerves.&lt;/p&gt;
+
+&lt;p&gt;If you want to join the world&amp;rsquo;s best programming community and become a better programmer consider &lt;a href=&#34;https://www.recurse.com/scout/click?t=710ee58e0b0ad8d9f443f9c9440137f1&#34;&gt;joining the Recurse Center&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chromecast&#43;TTS = Party: PA.js </title>
+      <link>https://blog.stanzheng.com/post/chromecast-party-broadcast/</link>
+      <pubDate>Sun, 11 Dec 2016 09:37:26 -0500</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/chromecast-party-broadcast/</guid>
+      <description>&lt;p&gt;I put this together in an afternoon hack session and was planning to extend it and clean up the code. However, its been months and the holidays are rolling around and it&amp;rsquo;s yet to be published! I wanted to put out a small writeup how to harness your Chromecasts for home automation, scripting, and fun.&lt;/p&gt;
+
+&lt;p&gt;Back at my &lt;a href=&#34;https://thisisgrow.com&#34;&gt;previous job&lt;/a&gt;, we had installed Chromecasts throughout the building hooked up to speakers and TVs. We used them during social functions to play music throughout the building and the deck. I&amp;rsquo;ve always been a fan of the Chromecast since the initial announcement and still own my v1. I was familiar with the network model how Chromecasts use &lt;a href=&#34;http://www.dns-sd.org/&#34;&gt;MultiCast for service discovery&lt;/a&gt;. This is how all your wifi devices on the same router are able to see each other. I thought it would be really cool to broadcast announcements throughout the building.&lt;/p&gt;
+
+&lt;p&gt;But to have a resource play I needed to stream a resource accessible to the Chromecast like a public URL. At this point, I was looking at Text-to-Speech libraries and found sadly there are far few and between standalone free and open source projects. You could use &lt;a href=&#34;http://skipperkongen.dk/2011/12/04/saving-output-from-text-to-speech-to-file-on-mac-os-x/&#34;&gt;OSX Say&lt;/a&gt; to record a WAV to stream but it wouldn&amp;rsquo;t work on other platforms and I would have to reupload to somewhere like s3 or a public server (too slow!).&lt;/p&gt;
+
+&lt;p&gt;However the useful marrying of using &lt;a href=&#34;http://stackoverflow.com/questions/9893175/google-text-to-speech-api&#34;&gt;Google Text-to-speech&lt;/a&gt; as public resources to translate &lt;code&gt;English to English&lt;/code&gt;. Success! now a streamable URL could be pointed to the Chromecast and we could selectively blast all the Chromecasts in the building. Even Google Translate had an easter egg where you could make beatbox using german tones. However, this since has been removed videos still exist for posterity.&lt;/p&gt;
+
+&lt;p&gt;Have fun and Thanks for the wonderful work of &lt;a href=&#34;https://github.com/mafintosh/chromecasts&#34;&gt;Mafintosh on Chromecast&lt;/a&gt; to make this surprisingly easy. Source code attached, it takes in input and broadcasts it to all your Chromecasts in your building.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/stanzheng/2be2bb212066a67d8c5747d9a53a81b3.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/JAIHY0pb4xc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>RC 2: Organizing Your Ideas</title>
+      <link>https://blog.stanzheng.com/recurse/week-1/</link>
+      <pubDate>Sun, 20 Nov 2016 14:48:38 -0500</pubDate>
+      
+      <guid>https://blog.stanzheng.com/recurse/week-1/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;Note: The title was renamed to RC:2 from Week1 to better reflect these entries as a series but not by week&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;settling-in&#34;&gt;Settling In&lt;/h1&gt;
+
+&lt;p&gt;Each week I hope to go deeper and highlight something I&amp;rsquo;m working on at Recurse. Coming into Recurse I aimed to get into a routine and continue it throughout the twelve weeks. I read the community wikipedia and all the accounts I could find online about how I could make the most out of my time at the center.&lt;/p&gt;
+
+&lt;p&gt;I was committed to being reflective and setting up mechanisms to keep myself on track. I joined 33 other Recursers from diverse backgrounds but we all shared the goal of becoming better programmers.&lt;/p&gt;
+
+&lt;p&gt;In this entry, I wanted to share a few of the strategies I found useful to make myself more accountable during my time at Recurse. To find more about the first day, I wrote a &lt;a href=&#34;(/recurse/day-1)&#34;&gt;separate post&lt;/a&gt; detailing my Day One experience.&lt;/p&gt;
+
+&lt;h1 id=&#34;getting-organized&#34;&gt;Getting Organized&lt;/h1&gt;
+
+&lt;p&gt;Along with becoming a better programmer, I also made it a goal to become more organized with my ideas. We all have a finite amount of time and effort, and one of the hardest things is which ideas to pursue.&lt;/p&gt;
+
+&lt;h2 id=&#34;putting-my-ideas-down&#34;&gt;Putting my ideas down&lt;/h2&gt;
+
+&lt;p&gt;For organizing ideas Trello made it easy to organize my ideas setting a column for each stage of an idea:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Kelvin&lt;/code&gt;: Ideas I no longer have interest in pursuing.
+&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ice Box&lt;/code&gt;: Ideas saved to be revisted later.
+&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ideas&lt;/code&gt;: Starting point.
+&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;In Progress&lt;/code&gt;: Currently working on it!
+&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Done&lt;/code&gt;: Got to a satisfactory point.
+&lt;br/&gt;
+&lt;br/&gt;
+Each idea starts as a card under the column &lt;code&gt;Ideas&lt;/code&gt;. Every time I have a new idea, I try to write down a description of what inspired the idea and some bullet points to execute it. If I feel like I&amp;rsquo;m not going to work on it in the immediate future I shift it to &lt;code&gt;Ice Box&lt;/code&gt;. If I fall out of love with the idea or have zero interest it is move to &lt;code&gt;Kelvin&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When I start on one of the ideas, I shift it over to &lt;code&gt;In Progress&lt;/code&gt;. While working on the idea, I put down more resources and blockers. What data sets were helpful during this project? What problems did I run into that will block the execution of the idea? Eventually, the ideas progress to &lt;code&gt;Done&lt;/code&gt; but sometimes they move back to &lt;code&gt;Ice Box&lt;/code&gt; to be revisited.&lt;/p&gt;
+
+&lt;!--![recurse](/recurse/hello-world.jpg)--&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/PAdT-rZCNpvF1lMbHKbtjhwB_JK2mp26fvJkHmvt2EMPRfrmkc_-bDk8QyEqrQ3HKSk-1WzD258N_AExEgNa_EOJtAlICMDsNUnrwBQ75HHxasUtvgQOM5ZRXMZY5p7urm5hoPCRqW46zsDaSvVmTsZuiCRF6DVuv0WbW5pzPbOgGWIAL1Ss9kt4U-x9zp9NiLthNHGDqHRqJ5pb9p_qhw-G9qnbgs5v2aA5dfJwcLOs-GMHfh41osp82zHnCnp1Mi7kvSCqYSzatPTGaQs8ooQ3LikhsRrt8gScykeYmOL8YrCSjulcbhUYRzudNbJmSANdG9lD8o7ejzDr7hZFEBf-5_RMY4cUdTMZ3eg1KzDyaq_NLp-9Jm7Z-7XoHOxuzd7yLdnyu6vbUVvbAbSX4E1qjZ6zOm_zeeyiSEJ0TZJM91gn6-fZ4jUrtJ59kr1QtgMsKzeC1JYgTmXvQFp-JAJUeAanYBUgUsASYts2BuhWVm1DSvS2_j3X844ZL8glKQEZjKUEw2sgiKbKsRxxqgVLURBfCs1kgPAHDfOoSaNmcSRyKrU3t0WYXk4WyO717UQZI889sWUa-wsp7UJnESDJiZxkFuobz6NBnEyXgEdgrnx7rQ=w841-h790-no&#34; alt=&#34;Trelloboard&#34; /&gt;
+&lt;em&gt;What the list started as, many ideas are in Kelvin now&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;taking-notes&#34;&gt;Taking Notes&lt;/h2&gt;
+
+&lt;p&gt;In the past, I used a private team Slack to take meticulous notes. Slack&amp;rsquo;s support for markdown and channels made it easy to separate different topics and make use of search and code formatting.  However being on multiple other Slack Teams, it made it too easy to become distracted. To improve my focus I decided to switch off to using Google Docs instead.&lt;/p&gt;
+
+&lt;p&gt;Google Docs with the outline feature allowed me to keep a running day to day collection of all of my notes. It also made it just as seamless to jot down notes on my laptop as well as my phone. In the notes, I tended to jot down any insights and problems I ran into as they came up. A large reason how I&amp;rsquo;m able to write blog entries posts fact is by reviewing notes from that week.&lt;/p&gt;
+
+&lt;p&gt;Aside from a &lt;code&gt;Running Notes&lt;/code&gt; doc, I keep a specialized &lt;code&gt;Journal&lt;/code&gt; doc to keep a short summary of what I did each day.&lt;/p&gt;
+
+&lt;h2 id=&#34;maintaining-links&#34;&gt;Maintaining Links&lt;/h2&gt;
+
+&lt;p&gt;Slack was useful for organizing and annotating links. Changing from Slack for note keeping, I had to look for a better solution to maintaining interesting links. Google Keep was a perfect stand-in, having it tied to your Google account made it cross platform and with useful App and Chrome Extension, it is frictionless.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/ayER1VirrEg8Mj45iIurulcy9qZcvhVaCQT7pJOdn_eXxViam4BpP2Ych-4Kt4dmGxGzVA-MdRXdKB4oJ-hwMTvSMt9mO4kNdgn1J8zMDgU49yH5MzXDN0xDFpUzXHWRzj7NmW8vREvL7qIUoE0yQinxwmIhzy_wR8MlDqalovLpQhjHVTuBYgvMVPO1UaxjLccxyw4R4wULJY0rrSiRNev1mtFz_ON2qcsnIzRN4FeQUgkyHkWbIGlcOO1-OJkd9rEwrb-cz8ie944w_xe6Aiuly1lI-rFHpE3V_7xQITSQuXPL_hi_5PWPKbP_1rx4UV70XXSVeLMvZoKJqjXwZ73rAf4D0BhAUbPvBapFem7OSBmPiO08smzxlx-4-L50vHyY9D6X0onru-3c5WPqF261bLep7jnNG1WaWOMX2-ALtiaCBzhVLXackl5J3ZmiOO4TZ7gPNgWk267Cabbd8g1fJ34KwhpxU5uLjy0m6J8CajfaRcXmdh0kII22SZ5j47mcHbR-gu80dJ6AyzvPBbWgL9cQ4UhYwD8Aq83GAn3qBAM8vWTs50anV4lLX0gldXbG6EwM5Yd5MDu0yDvrySglmQzwHN2CM2TJ-blN9wDjDRtN8Q=w961-h548-no&#34; alt=&#34;Google Keep&#34; /&gt;
+&lt;em&gt;Link Mood Board&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Google Keep makes it easy to put together an idea board for saving and reflecting on cool links that other Recursers shared. It also helps declutter the bookmark toolbar and the need for syncing bookmarks across browsers and devices.&lt;/p&gt;
+
+&lt;h2 id=&#34;managing-time&#34;&gt;Managing Time&lt;/h2&gt;
+
+&lt;p&gt;Every day I strive to arrive early at the space and leave late. At the end of the day, I want to be able to reflect on what I spent my time on and more effectively tackle it the next day. I use a time tracking tool called &lt;a href=&#34;https://harvestapp.com&#34;&gt;Harvest&lt;/a&gt; to manage my time into various categories.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Categories&lt;/strong&gt;
+&lt;br/&gt;
+- &lt;code&gt;Events&lt;/code&gt;: Event&amp;rsquo;s held in the RC space.
+&lt;br/&gt;
+- &lt;code&gt;Food&lt;/code&gt;: We all have to eat sometimes. Tracking long and short lunches.
+&lt;br/&gt;
+- &lt;code&gt;Programming&lt;/code&gt;: Time I spend executing an idea.
+&lt;br/&gt;
+- &lt;code&gt;Learning&lt;/code&gt;: Time I put that I&amp;rsquo;m reading documentation or understanding a concept or field.
+&lt;br/&gt;
+- &lt;code&gt;Meetings&lt;/code&gt;: Umbrella category for 1:1s, check-ins or impromptu meetings.
+&lt;br/&gt;
+- &lt;code&gt;&amp;quot;Project Management&amp;quot;&lt;/code&gt;: A general category I put time to whether its Zulip or checking Email or reading Hacker News
+&lt;br/&gt;
+- &lt;code&gt;Fun&lt;/code&gt;: Examples are wandering Central Park or attending a Conference or Meetup.
+&lt;br/&gt;
+&lt;br/&gt;
+In addition to tracking time in Harvest, I keep myself on track by trying to timebox tasks using Pomodoro sessions. It&amp;rsquo;s hard to do meaningful code based work using &lt;sup&gt;25&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; sessions so I changed to &lt;sup&gt;55&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; upon a good recommendation. Although at the aim of the sprints are to finish the task endeavored upon, interruptions happen&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/im1xvZsP_ZiCrukV4mZhCqntGBMuTzu0w-JPCt5G7cROk0RB6XaZ0-BtdMVg59zfg6ghpofvAJI=w494-h366-no&#34; alt=&#34;Harvest&#34; /&gt;
+&lt;em&gt;Week Two at the Recurse Center&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Many of these practices evolved during my first week. I abandoned Slack after I easily found myself distracted by different channels when I went to take notes or save links. After I noticed a disparate amount of time I spent sussing out the right idea, I picked ideas from the board and attempted to spend more time Programming.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m always curious to know what techniques and process help people work on ideas that matter to them most effectively. Share below if any of this works for you or if theres a specific process that helps you.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RC 1: Orientation</title>
+      <link>https://blog.stanzheng.com/recurse/day-1/</link>
+      <pubDate>Tue, 08 Nov 2016 14:45:38 -0500</pubDate>
+      
+      <guid>https://blog.stanzheng.com/recurse/day-1/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;Note: The title was renamed to RC:1 from Day1 to better reflect these entries as a series but not by week&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Day one of RC is widely different from every other day. Its more structured and is full of presentations and  socializing. This is my personal account from my day one experience, your experience may vary. They are always changing and aiming to improve the first day experience.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-to-nyc&#34;&gt;Getting to NYC&lt;/h2&gt;
+
+&lt;p&gt;I took the bus up from Norfolk, Virginia to New York Saturday night. I spent most of Sunday with family. On Monday morning, I began my new commute from Chinatown to SoHo to the &lt;code&gt;455 Broadway space&lt;/code&gt;. On the first day, its recommended you show up at 10:00am. I explored the surrounding parts of Little Italy and Chinatown to kill some time. I settled down and had some good coffee at &lt;a href=&#34;http://happybonesnyc.com/&#34;&gt;Happy Bones&lt;/a&gt; and briefly did some work to calm my nerves.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/4y34-UiTZsU45rzAS-PTBD6d3VtIgGEh6RKm-Ie0coO-M4k8WXmuWTA5NQJ-84aogAFPxdPOKCHtoiAtmUcv6QsEwFWIkhY2gcN3padRRTet1HZ2sDONpivMFWCyjG7_XwOQSPkksG0qHRBMDDGpI5oE6m5dxMtvIr6hDIQ5o1ZYtJ7I8IDqMQlJSgcuY2UPdQ59F1xftF1Ky-tS0Rd50nBfPi_HhkunvN3nKPnZ7T1weobgsQ8M2MhjxQoUtGagKC4zUDKHeThZohUC9r3CtwUMwZT5buiT2YAd2RWLwQvI3DKEd2VXo9a0XBJ_q81wWTOmAxXAsNbRFcAbfTGhSzta5bCcOCeADsxD_LOZlBhfdlj91BJEUkJAoYHM1Fnf3A0xL3iI0z18tkkbGpvU36RJn3XM9Qy49cpIbej8SiuydDNqCdGD-pR3ayxOfmvZ8VPFTTV7d_zsk5X6cm-CquMWkkt9SEDx7IM9WahCyn8SfBnzVDaWHAsOzp0XjGhvdH7vmX5jb5QJz87hmwIfsGO6M5vpOdBYItCSBW4l601HDVgwPjhw-ot-c1S7xQfvHt2AsNh-WjgFaGt60e40JbuvrgjvUdgkJzh_gtwTUyeoQIoMeA=w1808-h1264-no&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Caffeinating&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;orientation&#34;&gt;Orientation&lt;/h2&gt;
+
+&lt;p&gt;The space is on a second floor walk up inbetween a Duande Reade and a Muji store. When I got upstairs I was greeted with a beautiful open space buzzing with people. Recurse Center works with &lt;a href=&#34;https://www.recurse.com/blog/36-overlapping-batches&#34;&gt;overlapping batches&lt;/a&gt;, people 6 weeks into their program co-mingle with the new group starting their 12-week batch. The icebreakers and intros dovetailed into lunch where we could sign up to grab lunch in the surrounding neighborhood. Recurse is luckily near Chinatown and Little Italy so there are plenty of affordable delicious diverse options to try. Our group went to &lt;a href=&#34;https://www.yelp.com/biz/vanessas-dumpling-house-new-york-2&#34;&gt;Vanessa&amp;rsquo;s Dumplings&lt;/a&gt; which I highly recommend.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/CRJkiOKTl48Lkbhu1BzR8qMJbdbf45eaK2VFfAAv9_i8L5oRhGnQFcVMvR0n5snn3IbV_2lL3adnCYxKkd1jDdr3iFLMakMTdDo12WAcacKpux003pddyX_dQmt4FN1aDLlCR9k8mqqK0EaDDjuOFBFuroNHzLSTk-qlAtQ6VS1JKH5DfQNNZP6M9AbjqJQtx2_qk-zWrZcYRkiMwXyuc-bXv5a24dGLtxhSo9vF0n-7PxkS-7KInHcUEBYiLqMiYLUxkdby11LxPATVlug09O8gOP8EBdzDbRQERSWCRVxvFpzsvfFIGGYhIdVu7MNbLsz8p8sPg2yQzJ2ra7EjROyYb7N_L52MDP0_KMGt5FwOKYQQLc9iwJ4sHDhqONZBxAlF8gcwC02MnAlLDzAzuTjqjKONHlThPavrJTuGPOU2mKunI1pvqaVoN5nUMlriAFLFq8T0BXa1Jiq64ksCHQJ_jTkizDx4t-n9sE8zMlQ2g9eNDq2x7lGlwkytQDPq8jHrHmiqBQv8U9I1xdXO5qaxon9MIoMWd-mjINu2ra7l26BhsZaBOiysLhxWboyyuf72nudSPh6PpSiAduZvygVn6cxVDNZlk354NhDr30k7ZCnQew=w1686-h1264-no&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Map of Places around Recurse&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;h1 id=&#34;workshops-and-presentations&#34;&gt;Workshops and Presentations&lt;/h1&gt;
+
+&lt;p&gt;We spun out into workshops which were graciously put on by the facilitators and the previous Fall 2 batch of students.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Build your own programming language by Marcio. &lt;a href=&#34;https://github.com/marciok/Mu&#34;&gt;His Presentation later was posted on HN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Code Dojos led by Myles: Workshop where you solve a small problem, either pairing or solo and share solutions after.&lt;/li&gt;
+&lt;li&gt;Machine Learning Overview by Mike, Nathan and Marko:  Gave an overview of the vast field of Machine Learning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/SbB4MtfQVaWQMJm3VRntFPZUsGXZbMPULJ2A_CfqaOXUVzVo30DLMTjr_C-flWK6V9ddOZ_PuD0BbFZliE8Ay9HR3p4FJ5K4v4aZaDwT5pv87Jvua3MiBt7a6jbfzQhDEHMWsIk-sN-vjvrbjGYuXLGPi_gYsM3ki_Mb7tjO-dkunEXe5wyepwXut6NMqZRpextkA4YSKoDGm2-pkj85w9X2ZrCXs9PCuXY3qSVta0YR5r-IeKkfFAFy-gOsZHkCrSLINkNUdziMmlH9QF9NCsgjxaqzpa8Qdhl1dLHSiuM_fcIxRUfv87YM5gvW_jRmMshmRJlN_q3if3OgsBVo43-GnBdnt9OAspQKqcleuh7jWPeyagElria0pB7bpG-BCz0CyeI9h6TgQLg-yNCSf_WD2ti27azz15cspuDwp4Us3nl-544kN3Xs3YFmhp8uwTUnA4OHcaZHcQM0ZkB8sUQYepmTngqIPWlvf-jwmaIUha_4t7XLDOInNsS_5LyAAL8pDKUCPx2vG9ObbRslqpKvuQS5gklmrOdVQKyAECifB_NSKJ9c298LecVn4Gz_1OAgEI_Shwxz6EZK0TfQPwuvlQR9YJsiFC3o8sxiUZAqWG7auQ=w1686-h1264-no&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Building a Programming Language using Swift&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
+
+&lt;p&gt;After a few hours of workshops, there was a schedule of presentations. Traditionally at Recurse on Thursday there are lightning talks that each person has 5 minutes to present. There was a vast diversity of talks from ones on &lt;em&gt;Teaching games to play Tic Tac Toe&lt;/em&gt;, to &lt;em&gt;Understanding Unix Tools&lt;/em&gt; and &lt;em&gt;Building Ray Tracers&lt;/em&gt;. All the presentations were wonderful and hopefully in 6 weeks, our group will be doing the same.
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/PehV42QMw5AX9_7dZpqJ-E9dOTh2xGZRXzrSXOWNYGp70Rd0W_lOVMmaOtZtGC-YW5Cf5VoXDjHVgrFUWaiVDadpqGqaM5rrbRcLlxOQCxUAdY2rPelUG3atFlawwcheKX3g0d7raS9MO3YfOoIpa5roSF6PzhfdSAQWAReA_n5Hg0cQnLI1gBIO0nr1w86QKdq1nwNzryvNSmJZyS1GYaw0CCyATWGc9bQGDU0ssIpLsiI-f4awuLBSAGWM3xVjWA3VeIRxUThwwX7wUlQ_VfzSDkfMT2qGYUuuqdprGt4W0qVAh5mr7AMvx9qMqnKcj-eAyWW8HuMG9wEJyCfjzZbPnn1a7NGn1ZECRuXH-tWOylZjQARzWXkz7l55yYdP_6sKlADJEG5Q7Tg_ciI1fnPo6aqkOomDlPUlf4qqnY6WJzu9znqj2PojvRM-9ivbWQEgzkydGL0JvMUdOsiQ_Wm-cIbiA-etMh5efNGEkbEKbo3FgbXh_EPNbriOygAVvTaC4V2WrwLOl49DoAZgV4gR1V3_HnQQiPA2HTiXhSX2GckwRgZptlb02bYR8NF7bHrfMqb9bWEDfbV13Ivf6BU4MpjtV0KH4dE2zZQpqJeH2XmtJA=w1686-h1264-no&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Presentation Main Space&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;
+After the presentations, Sonali gave the closing notes. The day was adjourned and for the rest of our twelve weeks we are in charge of our time We all had received keys to space and were introduced to the mechanisms to keep ourselves on track but largely we were in charge of our time. Recurse Center is self-directed, everyone is here for different reasons but we all want each other and ourselves to succeed. RC has facilitators, residents, check-ins-checkouts, and presentations all aimed at helping us reach our goals.&lt;/p&gt;
+
+&lt;h2 id=&#34;rc-is-a-community&#34;&gt;RC is a Community&lt;/h2&gt;
+
+&lt;p&gt;After the presentations, many of us stuck around. We talked and got to know each other more. We made weekend plans, we shared what each other were hoping to work on. We shared our backgrounds and what we hoped to do in the future. We went for pizza at this place called &lt;a href=&#34;http://www.joeypepspizza.com/index/Joey_Pepperonis_Pizza___New_York_City.html&#34;&gt;Joeys&amp;rsquo;s&lt;/a&gt;, they do dollar pizza cheese pizza slices. A group of us came back to the space and played a game called &lt;a href=&#34;http://forum.frontrowcrew.com/discussion/7294/learn-how-to-play-the-word-game-contact&#34;&gt;Contact&lt;/a&gt; for a few hours.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Goal today is to maybe write something up about hrdevfest and also about  my first week at Recurse Center &lt;a href=&#34;https://t.co/zo9QUL7GhW&#34;&gt;pic.twitter.com/zo9QUL7GhW&lt;/a&gt;&lt;/p&gt;&amp;mdash; Stanley Zheng (@StanZheng) &lt;a href=&#34;https://twitter.com/StanZheng/status/797835453642801152&#34;&gt;November 13, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;Recurse is unique. &lt;br/&gt;
+Recurse is an experiment. &lt;br/&gt;
+Recurse is what you make it. &lt;br/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>All Things Open 2016</title>
+      <link>https://blog.stanzheng.com/post/all-things-open/</link>
+      <pubDate>Thu, 03 Nov 2016 17:57:26 -0400</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/all-things-open/</guid>
+      <description>
+
+&lt;h2 id=&#34;raleigh&#34;&gt;Raleigh&lt;/h2&gt;
+
+&lt;p&gt;All Things Open is an amazing conference in its fourth year running hosted in Raleigh North Carolina. It&amp;rsquo;s a conference that celebrates open source and the community behind it. Two days of pure learning, networking and fun times with fellow developers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/kpAgL2a5OiAUY5xq6e5PPxy2DjZPzKvJdpg1KuMgrd99A6G9FSoQBaajwHPjj9XeRlqrcitEHwy7f_yyi9ORJcOvEn7mKVphfJHAbphVG1bB1P6kT3XxnHzEsm0J9KY-eGr6f0MIBHuPZv671_f4P3ZU6Qr6upfbPuFTMnRilwdJ9hxtOVWGd9Y9boNOI4tA7LFUK2IsXAd1hivotoxaoSWaEMpbZ0cCp5UD-MtGFTkGohSwUOwkRdUHCduWkykKAn_JpjRgMJcuYswPPDxwJG8DvfwE-GxaaZEllkZMmlnGOqYtV66eeSnCfk0u84Ud_mu-yQh8PS2_StpO0-a7TWgOVNcnbbcchOVhYAryPlvjPSOkJ9pqgFPNvE88NM0sskwYwYQKI7OigXbTnW6JK0veuZjC2uH-kadDCriMAZcBocWm4aZBkCOPtN6jr-SsDWXuWFQo6NrF9sQq72dZYkYhkwvtk8kFnlVR3uH5sOEbp5O9oyj5hH2TFvnspAkUPWSpKDQQqRui5HOEM7gtuGQDRFR7_mndKtbQ8zvCCOV20pDjhLjtlJ3hhQ4_WjtiCtbZlR5vTgSplzuDPGEUDQ9FDyVtpvbWrIyHzcKBcW_tv3wz8w=w960-h720-no&#34; alt=&#34;Registration Desk&#34; /&gt;
+Early-Registration. Over 2000+ Attendees for two days.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;you-should-go&#34;&gt;You Should Go&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cheap Price:&lt;/strong&gt; for $199 this was a very inexpensive conference. The conference hotel for &lt;em&gt;one day&lt;/em&gt; cost more than two days of tickets including great after hours celebrations on three days.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Celebrates Open Source:&lt;/strong&gt; the breadth and diversity of open source contributors is amazing. Spending a few days getting to talk to open source contributors and companies let&amp;rsquo;s you know what everyones interested in and where the industry is going.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Diversity of Topics:&lt;/strong&gt; There were 8 different tracks you could mix or match. If you were interested in tech, there was something there for you.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;my-itinerary&#34;&gt;My Itinerary&lt;/h2&gt;
+
+&lt;p&gt;I ended up going with focus on data science and analysis. My background is mostly in full-stack web so this was a refreshing change of pace. I also got to talk a bunch of companies that are defining how you can create companies around open source projects and meet diverse &lt;developers class=&#34;&#34;&gt;&lt;/developers&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;sessions&#34;&gt;Sessions&lt;/h1&gt;
+
+&lt;h2 id=&#34;tuesday&#34;&gt;Tuesday&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/d_NZN5wnqTLemuxslU7axqf_LDb_YX0ssrabHQZ8GTEDXXvDg7_T7ewu8FDDu2V9KJiKLQO-HsFadgAcQPYYKJiAT7E-OzThdUvoviNT9lhdFVu8KkVbGVjm4Nbvm-Fv7W12oaUT8Rf3i1D2GuH-uzP7pDTdFXAr_NO63RAgF8_WRFcrG42l46vBV_EPBluy41dcedXPAKcgArsCeFAbJSyACEqErWZzUuiZh1yW2p2_bHiN2uuOqXlr22fodHIokid3_LVvKWK0CclD-K9yHPhSFq9G8Jdw3t4uHHCqe53RePeF0OLGSpsQqXCo3eQrJRpj6fXDCH_gtKz_vZUNUCzQzvq5tG1uNK9RnXMUzoVkQJwiAq2zucJa7rkZA0hy1uVcfsHAnDtF_W7LcJPilNbcjGx4L4NuvRWWLg5ALacgdwx4JtXX8BKo18yThEMzC2l-07ntCR8bP3Q3IjozsOPowlL0FUBy0Wa3jEL-vTH2qC3GP1Lhmf5L7JoMrmZjiwdEqcAaldfoMFpcsLFy_hIgWbQ490UN2Z1jA8GW8M4FUKMi2rDqcuBMXAuhjjXbhCUtq6zaEuGr5VKu_RT5A7v_PkS4SX6dN81Zu50wdTgjsb-osg=w519-h292-no&#34; alt=&#34;Toddy Music&#34; /&gt;
+Happy hour with Capital One. &lt;a href=&#34;https://twitter.com/Totty_Music&#34;&gt;Toddy Music&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;wednesday&#34;&gt;Wednesday&lt;/h2&gt;
+
+&lt;p&gt;Had a great diversity of talks below. For my ticket I decided to volunteer and supervise a room for 4 hours in exchange for my ticket. I helped monitor the Hardware Track Room 2. Besides some near scares and running around searching for adapters it was a pretty tame time and excellent value.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Data Engineering with Apache Solr and Spark: Grant Ingersoll&lt;/li&gt;
+&lt;li&gt;Culture Trumps Tools: Matt Micene&lt;/li&gt;
+&lt;li&gt;IOT/Hardware Track Room 2
+
+&lt;ul&gt;
+&lt;li&gt;Continious Engineering for IoT: Jim Ruehlin&lt;/li&gt;
+&lt;li&gt;Open Source for IoT: Dave Hoover&lt;/li&gt;
+&lt;li&gt;IoT: Myth&amp;rsquo;s and Realities: Timm McShanne&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;NC: RIOT Demo Night. Tech and maker products.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;thursday&#34;&gt;Thursday&lt;/h2&gt;
+
+&lt;p&gt;Scott&amp;rsquo;s talk was great and had everyone laughing. The rest of the day I continued doing more talks about data and distributed systems. It was a packed house to listen to Mitchell Hashimoto talk, it was very insighful about the challneges of building and maintaining a secure system. I also enjoyed Alex Meadow&amp;rsquo;s down to earth talk about open source and business intelligence.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Keynote: Scott Hanselman&lt;/li&gt;
+&lt;li&gt;Life in the Trenches with Spark: Ian Pointer&lt;/li&gt;
+&lt;li&gt;An End to Boring Data with Visualizations: Heather Shapiro&lt;/li&gt;
+&lt;li&gt;Secrets, Certificates, and Identity with Vault: Mitchell Hashimoto&lt;/li&gt;
+&lt;li&gt;Building Next Generate Data Warehouses: Alex Meadows&lt;/li&gt;
+&lt;li&gt;OMGWTFAMQP: Mark Lavin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/Duz7A8-P0BZ2PC_EmaPgOVWknz_AxQ_QmHC8Tx3jGeSPLPV0Mj6g2Q48RQ7nEHBfy_M5liHycjF_PYQKRoq8OgGYMwgFAOHRQj1SQ59kJMcc6_LzTy4f9EhCeKcEMA7nYm2PiqI-DcsAjspmkmSkT3p_3K0XGt5tf3JpR7yHKCrYWKJK-MY99zD3r9P3hsMhwTnXy1rLnB3kJn5RAl7N1yecmhWkNm4p0VkzA0NucVrkEiZSBgQuQqFwJvn2pojfVaft7ugM_grmXkSRKP7vhltyNTpGYEEYkFWAMs8OiQVzjjdS8exZqCcVWEwFIOaFZfbEHXDKfDGFmDmhzOWNfCUzD2VupGQUnxcsnvHwU2gPsZNg_2A1VwaWZy7y-M0KCVW0BwxMNAjmn80v3SFJVxdmSwFed_Hvl-_oMAW2DJBqf8om9pr_dTgO4D94l4PFPIAuG7UWEJQbCW0DPiTQ5TK_pGEaCLquCsxb_SMQgGT0QSISSLVfuLNafPCO8qyRs9ZkedLyt7O-zhcF5LsWijatZvSNn-ycJU1Ycm8IAbqtVXdCX_i3XOo7NHFxkgRUsTl12zu74yEj4gvB2NAl-1x-nrk3XoUp8c9ZSv0PIttZsfB8IA=w960-h720-no&#34; alt=&#34;BoxCar&#34; /&gt;
+Arcades and Brews hosted by PayPal. &lt;a href=&#34;https://theboxcarbar.com/&#34;&gt;BoxCar Barcade&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The event went by very quickly and I had an amazing time. I would definitely go again. The organizing team did a wonderful job and went all out to build a great conference. Next  It will be on a Sunday, Monday, Tuesday next year and will be on October 22-24, 2017.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Joining Recurse Center</title>
+      <link>https://blog.stanzheng.com/post/recurse/hello-world/</link>
+      <pubDate>Tue, 01 Nov 2016 16:31:55 -0400</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/recurse/hello-world/</guid>
+      <description>
+
+&lt;h2 id=&#34;new-york-city-for-the-winter&#34;&gt;New York City for the Winter&lt;/h2&gt;
+
+&lt;p&gt;I am excited to call the &lt;a href=&#34;https://recurse.com&#34;&gt;Recurse Center&lt;/a&gt; in NYC home for the next few months. Will be a part of their 12 weeks for Winter 2016 batch. Recurse describes itself as
+&lt;em&gt;a free, self-directed, educational retreat for people who want to get better at programming, whether they&amp;rsquo;ve been coding for three decades or three months&lt;/em&gt;. There are facilitators but for 12 weeks you will be working with your fellow batchmates on honing your skills working on projects you always wanted to do.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://d29xw0ra2h4o4u.cloudfront.net/assets/rc-apply-bc8193cd2a186ec3ab09ab40bd06e59df4ddc2ab061ef1ea9bd7799b3b3f311d.jpg&#34; alt=&#34;Recurse Center Apply Photo&#34; /&gt;
+&lt;em&gt;Photo from Recurse Center Apply&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;
+
+&lt;p&gt;I switched to Computer Science in college from Accounting and haven&amp;rsquo;t looked back. I have been primarily doing full stack web development for the past four years and dabbling in everything else. I&amp;rsquo;m excited to take some time to work on some back burner project ideas and also explore new problem domains.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve become more interested in working with data. We generate and collect so much data now that the hard science is reasoning with the data and storing it on demand. The culmination of this is personalized computing and AI. Having it so easy to access is a powerful idea; you can have contextual personalized search to any of your data on demand.&lt;/p&gt;
+
+&lt;p&gt;My favorite example of this is &lt;em&gt;Google Photos&lt;/em&gt;, I&amp;rsquo;m can find an old photo of &lt;em&gt;Street Food&lt;/em&gt; I took on a trip to China 8 years ago if I just ask. From Google Assistant, Apple&amp;rsquo;s Siri, Microsoft&amp;rsquo;s Cortana, and even Facebook M, the future is going to be a world of personalized computing experiences and redefining the term &lt;em&gt;Personal Computer&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;![Street Food] &lt;a href=&#34;https://lh3.googleusercontent.com/h0vT2WxcfFycxI_a-S3lAVtmZc10zSU5b32uEU6u7idvRUD3thxciKb-uEQ92N-2d_crQrm5jbmhhi_gosoSVzyLdmWi3f7d2aikPzRDulpFvClY10RXETLRtmgIHr05eaWtUWT9oVWew9L4ocoEegSzo4W623cT1mnVupLfEYzl36mLTh19RS67004_H8tGQKPkJQBjiXrJxb4Qx0gN0Te8r8rkqawKXHICkOy4VvWViy_QnIpE74LrKn_gEfCGUuqK0W_3TC1F1jpoTpHU3uuGnlWtpi6zXXE2GHc2MSBTPSLIXnzpJBTkxvb1VI4mBrLgbXlwCO8TrXBAOn0I2SwlvGTPxIfKPgfqM5nUR3Qs2_OBD8LnZ6kVncV9avgf3xfBjYOUhF3IuU2eRDBT7OFjygXJIc-uHtSPIg5bc4zyCG4bK1LxlXCcXj9H9gGrz_qEHfwrsLQiqqTaLSZ723x2zZk1dgXh1O_jjeVoU-A7PJ41SdveqJYBrEJLApJGjLwJ0_z8bvcJr9E_r82m6UBn9EOng5uZ2xlYNd0KQlYqsaAWHxD2PDpHu3d6UDpy7Qbth0zADPSEkC8WuEu5H1Bx9afmHJ95GE3YnpxWxrbHKsac2Q=w454-h341-no)&#34;&gt;https://lh3.googleusercontent.com/h0vT2WxcfFycxI_a-S3lAVtmZc10zSU5b32uEU6u7idvRUD3thxciKb-uEQ92N-2d_crQrm5jbmhhi_gosoSVzyLdmWi3f7d2aikPzRDulpFvClY10RXETLRtmgIHr05eaWtUWT9oVWew9L4ocoEegSzo4W623cT1mnVupLfEYzl36mLTh19RS67004_H8tGQKPkJQBjiXrJxb4Qx0gN0Te8r8rkqawKXHICkOy4VvWViy_QnIpE74LrKn_gEfCGUuqK0W_3TC1F1jpoTpHU3uuGnlWtpi6zXXE2GHc2MSBTPSLIXnzpJBTkxvb1VI4mBrLgbXlwCO8TrXBAOn0I2SwlvGTPxIfKPgfqM5nUR3Qs2_OBD8LnZ6kVncV9avgf3xfBjYOUhF3IuU2eRDBT7OFjygXJIc-uHtSPIg5bc4zyCG4bK1LxlXCcXj9H9gGrz_qEHfwrsLQiqqTaLSZ723x2zZk1dgXh1O_jjeVoU-A7PJ41SdveqJYBrEJLApJGjLwJ0_z8bvcJr9E_r82m6UBn9EOng5uZ2xlYNd0KQlYqsaAWHxD2PDpHu3d6UDpy7Qbth0zADPSEkC8WuEu5H1Bx9afmHJ95GE3YnpxWxrbHKsac2Q=w454-h341-no)&lt;/a&gt;
+&lt;em&gt;Street market in Rural China from 10 year ago that I took&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-i-ll-be-doing&#34;&gt;What I&amp;rsquo;ll be doing&lt;/h2&gt;
+
+&lt;p&gt;At Recurse it&amp;rsquo;s recommended you pick a focus, like a capstone project that you&amp;rsquo;ll be working on day to day and hopefully finish at the end. I want to challenge myself to do more with data. I put together the idea of building a recommendation engine as my softball to myself. A little less ambitious than &lt;a href=&#34;http://www.theverge.com/2016/1/3/10705652/zuckerberg-building-ai-to-run-home-like-in-iron-man&#34;&gt;Mark Zuckerberg&amp;rsquo;s plan to build an AI for his Home this year&lt;/a&gt; but baby steps.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been using Python for a few years now and have done some Scikit-learn and Tensorflow. All my experiments in the data science realm have all been very shallow but I&amp;rsquo;m fascinated by projects like &lt;a href=&#34;https://deepmind.com/blog/wavenet-generative-model-raw-audio/&#34;&gt;Google&amp;rsquo;s WaveNet generative audio&lt;/a&gt; and &lt;a href=&#34;http://tinyclouds.org/colorize/&#34;&gt;Tiny Clouds&amp;rsquo;s coloring black and white photos&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m a few weeks into the original &lt;a href=&#34;https://www.coursera.org/learn/machine-learning&#34;&gt;Coursera Machine Learning by Andrew Ng&lt;/a&gt; but the math bits are challenging. I&amp;rsquo;ve also accumulated a list of projects on a trello board that I&amp;rsquo;ll pick through and try to tackle throughout my batch.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/PAdT-rZCNpvF1lMbHKbtjhwB_JK2mp26fvJkHmvt2EMPRfrmkc_-bDk8QyEqrQ3HKSk-1WzD258N_AExEgNa_EOJtAlICMDsNUnrwBQ75HHxasUtvgQOM5ZRXMZY5p7urm5hoPCRqW46zsDaSvVmTsZuiCRF6DVuv0WbW5pzPbOgGWIAL1Ss9kt4U-x9zp9NiLthNHGDqHRqJ5pb9p_qhw-G9qnbgs5v2aA5dfJwcLOs-GMHfh41osp82zHnCnp1Mi7kvSCqYSzatPTGaQs8ooQ3LikhsRrt8gScykeYmOL8YrCSjulcbhUYRzudNbJmSANdG9lD8o7ejzDr7hZFEBf-5_RMY4cUdTMZ3eg1KzDyaq_NLp-9Jm7Z-7XoHOxuzd7yLdnyu6vbUVvbAbSX4E1qjZ6zOm_zeeyiSEJ0TZJM91gn6-fZ4jUrtJ59kr1QtgMsKzeC1JYgTmXvQFp-JAJUeAanYBUgUsASYts2BuhWVm1DSvS2_j3X844ZL8glKQEZjKUEw2sgiKbKsRxxqgVLURBfCs1kgPAHDfOoSaNmcSRyKrU3t0WYXk4WyO717UQZI889sWUa-wsp7UJnESDJiZxkFuobz6NBnEyXgEdgrnx7rQ=w841-h790-no&#34; alt=&#34;Trelloboard&#34; /&gt;
+&lt;em&gt;Fleshing out list of project ideas and goals&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;in-closing&#34;&gt;In Closing&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ll do a follow-up at the end of my batch to see how close I stuck with what I planned to do. I&amp;rsquo;ll keep in touch, connect with me on &lt;a href=&#34;https://twitter.com/stanzheng&#34;&gt;Twitter&lt;/a&gt; and &lt;a href=&#34;https://linkedin.com/in/stanzh&#34;&gt;Linkedin&lt;/a&gt; and reach out if you have any questions about the program.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blog Necromancer</title>
+      <link>https://blog.stanzheng.com/post/Blog-Necromancer/</link>
+      <pubDate>Mon, 31 Oct 2016 02:55:21 -0400</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/Blog-Necromancer/</guid>
+      <description>
+
+&lt;h2 id=&#34;pardon-the-cobwebs&#34;&gt;Pardon the Cobwebs&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s only fitting that we raise the dead on Halloween. When I first started out developing, I was encouraged to write down more of my day to day insight so I could share and reflect. I started with  &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; originally for my blog. I was really proud of it but after a while and my lack of using Ruby on any of my system I gave it up.&lt;/p&gt;
+
+&lt;p&gt;I migrated later on to &lt;a href=&#34;https://hexo.io&#34;&gt;Hexo&lt;/a&gt;, a Node based markdown editor that was &lt;em&gt;fast&lt;/em&gt; and had some beautiful templates. It also migrated 1-1 for the original Jekyll blog. I started getting into a blogging frenzy, but often it was written the notes down now, and come back later to clean it up. (Of course, I never came back).&lt;/p&gt;
+
+&lt;p&gt;As I got busy and less keen on updating the blog, it fell to a state of staleness. Briefly, I moved my blog to Medium but that didn&amp;rsquo;t last long. Medium is a great platform for sharing stories but not the best at sharing code or giving more fine grain control. Also, it felt harder to publish when there were hundreds of followers going to read your half-baked blog post.&lt;/p&gt;
+
+&lt;p&gt;I took time in preparation for Recurse Center to reboot my blog and at least vow to put together an entry a week with project-based one for my records. I&amp;rsquo;ll at least take some pictures and create at least a photo blog at least.&lt;/p&gt;
+
+&lt;p&gt;The new blog is rebooted with the &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-cactus-theme&#34;&gt;&lt;em&gt;Cactus theme&lt;/em&gt;&lt;/a&gt; built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. It&amp;rsquo;s great, simplistic and gives me enough flexibility to make some small tweaks here and there. I rescued a few of my &lt;a href=&#34;https://github.com/stanzheng/blog-1&#34;&gt;old blog entries&lt;/a&gt; and are reaggregating them here.&lt;/p&gt;
+
+&lt;p&gt;Look forward to better quality posts and as always reach out and say hello!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Easy Server Sync</title>
+      <link>https://blog.stanzheng.com/post/easy-server-sync/</link>
+      <pubDate>Tue, 20 Sep 2016 01:23:49 -0400</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/easy-server-sync/</guid>
+      <description>&lt;p&gt;You can setup some great tools like browsersync or built in editor features to keep your comptuer synced with a remote server. This can add some benefits such as being able to have a staging/live server and demo in real time to a sharable remote. However setting up all those tools isn&amp;rsquo;t always fun for small tasks.&lt;/p&gt;
+
+&lt;p&gt;In OSX/Linux there are some basic unix tools that you can use in combination to simulate the same effects.
+We will be using fswatch and also rsync to simulate a file watcher and uploader.&lt;/p&gt;
+
+&lt;p&gt;Setup the below gist and you&amp;rsquo;re off and running. Any file changes will trigger an rsync. Hopefully with the options, specified only diffs will be rsynced.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/stanzheng/c002bfc60fadef4a8dd53db5a0d6a4a7.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code: Up and Running</title>
+      <link>https://blog.stanzheng.com/post/vscode-the-good-parts/</link>
+      <pubDate>Sat, 12 Mar 2016 17:28:12 -0400</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/vscode-the-good-parts/</guid>
+      <description>
+
+&lt;h2 id=&#34;try-it-you-might-just-like-it&#34;&gt;Try it! You might just like it!&lt;/h2&gt;
+
+&lt;p&gt;Visual Studio Code is Microsoft’s cross-platform text editor that was announced in April of 2015 and open sourced on Github in November. It has a similar look and feel to Sublime and Atom and is a quick responsive basic editor with polished tooling.
+When I started web development, I started using Sublime Text &lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt; in 2012; but as time passed, it seemed sublime was stagnating with the product with fewer releases and interesting features. After Github announced Atom, I jumped on it as soon I got an invite. It was an exciting editor built on the tooling on the web that we all knew and loved. The community was very excited and the ecosystem on APM rapidly became 1:1 complete with all the plugins on Sublime.&lt;/p&gt;
+
+&lt;h2 id=&#34;as-time-goes-on&#34;&gt;As Time Goes On&lt;/h2&gt;
+
+&lt;p&gt;Professionally, I ended up using more editors for development, from the JetBrains family of IDE to the minimalistic VIM editor. These were far ends of the spectrum between what Atom traditionally offers and was very refreshing.
+With Atom, I started running into limitations. Originally files larger than 4mb would crash your editor. To get where I liked it, lots of tweaking and plugins installation and increased startup time. Stepping through code was something you did on your own and you had set up your own tool chains for that.&lt;/p&gt;
+
+&lt;h2 id=&#34;1-add-a-jsconfig-json-file&#34;&gt;1) Add a jsconfig.json file&lt;/h2&gt;
+
+&lt;p&gt;Visual Studio is known for Intellisense, Microsoft&amp;rsquo;s smart auto competition tool that lets your brain memorize less. It uses typescript definitions to give you type definitions for any library defined by using typings, a tool to install typescript definitions. Most popular libraries already have a .ts definition file (React, Lodash, Express..) etc. Add the file to your project or in your .vscode directory if you do not want to commit it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+    &amp;quot;compilerOptions&amp;quot;: {
+        &amp;quot;target&amp;quot;: &amp;quot;ES6&amp;quot;,
+        &amp;quot;module&amp;quot;: &amp;quot;commonjs&amp;quot;
+    },
+    &amp;quot;exclude&amp;quot;: [
+        &amp;quot;node_modules&amp;quot;,
+        &amp;quot;wwwroot&amp;quot;
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Visual Studio Code is built in typescript but also offers a bunch of great autocomplete options for well-used libraries. Even if you&amp;rsquo;re not using typescript or flow, you can benefit from the IntelliSense completion. As of 1.6, I believe they&amp;rsquo;ve added typings by default to the editor.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-use-tasks-in-your-command-palate&#34;&gt;2) Use Tasks in your Command Palate&lt;/h2&gt;
+
+&lt;p&gt;VSCode can read common task runner tools like Gulp and Grunt. VSCode adds these tasks to your command palate so you can easily use &lt;code&gt;CTR+P&lt;/code&gt; and look for the tasks that are in in your gulp file. If your project already has grunt or gulp added, no additional configuration is required. You can also define your own if you use NPM or another tool as your primary task runner.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-use-the-debugger-tools&#34;&gt;3) Use the Debugger Tools&lt;/h2&gt;
+
+&lt;p&gt;Microsoft has provided debugging tools for JavaScript, TypeScript, Go and Python and the community are adding much more. They let you step through line by line and set manual break points. This gives the full stack editor feel while still keeping it minimum.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-alias-vscode-in-your-terminal&#34;&gt;4) Alias VSCode in Your Terminal&lt;/h2&gt;
+
+&lt;p&gt;At least with the OSX DMG installation, it does not link vscode in your user apps path like Atom. You can easily correct this with an alias. Add this to your &lt;code&gt;.bashrc&lt;/code&gt; or &lt;code&gt;.zshrc&lt;/code&gt; file depending on what default shell you use.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function vscode { open -a “Visual Studio Code” $1}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can then vscode in your terminal in path with &lt;code&gt;vscode .&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Try out VSCode again, it&amp;rsquo;s gotten much better since the original release and getting better all the time. It has not reach critical adoption yet and there are small quirks (no tab navigation), it is definitely a worthy option to try. It&amp;rsquo;s a very active project that Microsoft intends to support and has done a stellar job.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sharpen Your Saw 3 - Mocha</title>
+      <link>https://blog.stanzheng.com/post/sharpen-your-saw-3/</link>
+      <pubDate>Mon, 15 Feb 2016 00:24:44 +0000</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/sharpen-your-saw-3/</guid>
+      <description>&lt;p&gt;Here is my solution to Sharpen Your Saw 3. We had Steve Hackbarth down again to teach about a core skill in development: testing. We used the popular test runner Mocha.&lt;/p&gt;
+
+&lt;p&gt;The project went through different setups proving although complex, a stateless purely functional component is easy to test. &lt;a href=&#34;https://github.com/shackbarth/sharpen-your-saw-3&#34;&gt;Repo.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Each pull request represents a &lt;a href=&#34;https://github.com/shackbarth/sharpen-your-saw-3/pulls&#34;&gt;solution.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is my &lt;a href=&#34;https://github.com/stanzheng/sharpen-your-saw-3&#34;&gt;solution.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sharpen Your Saw 2 - Async</title>
+      <link>https://blog.stanzheng.com/post/sharpen-your-saw-2/</link>
+      <pubDate>Tue, 24 Feb 2015 19:23:50 +0000</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/sharpen-your-saw-2/</guid>
+      <description>
+
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;Hacking Async with Steve Hackbarth, here are a few solutions provided by our fellow meetup users
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Steve Hackbarth is back again this February to lead an interactive meet-up to discuss problem-solving using Javascript and other useful utilities. Be sure to bring your laptop so you can participate in the exercises.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;a href=&#34;http://ursahealth.github.io/async.html&#34;&gt; Slides: &lt;a href=&#34;http://ursahealth.github.io/async.html&#34;&gt;http://ursahealth.github.io/async.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+The challenge was to find all word with the most synonyms in the phrase. &amp;ldquo;May the force be with you&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt; Ryan Q.: &lt;a href=&#34;https://gist.github.com/ryanwilliamquinn/6bf3ad352b986c25248a&#34;&gt;&lt;a href=&#34;https://gist.github.com/ryanwilliamquinn/6bf3ad352b986c25248a&#34;&gt;https://gist.github.com/ryanwilliamquinn/6bf3ad352b986c25248a&lt;/a&gt; &lt;/a&gt; &lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt; Travis W.: &lt;a href=&#34;https://gist.github.com/tjwebb/74cccd6247f61150cae0&#34;&gt; &lt;a href=&#34;https://gist.github.com/tjwebb/74cccd6247f61150cae0&#34;&gt;https://gist.github.com/tjwebb/74cccd6247f61150cae0&lt;/a&gt; &lt;/a&gt; &lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt; Steve H.: &lt;a href=&#34;https://gist.github.com/shackbarth/3867373c115c67c8c272&#34;&gt; &lt;a href=&#34;https://gist.github.com/shackbarth/3867373c115c67c8c272&#34;&gt;https://gist.github.com/shackbarth/3867373c115c67c8c272&lt;/a&gt; &lt;/a&gt;   &lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt; Eric O.: &lt;a href=&#34;https://gist.github.com/erikpmp/bea69d0559916359e727&#34;&gt; &lt;a href=&#34;https://gist.github.com/erikpmp/bea69d0559916359e727&#34;&gt;https://gist.github.com/erikpmp/bea69d0559916359e727&lt;/a&gt; &lt;/a&gt;   &lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt; Stanley Z. : &lt;a href=&#34;https://gist.github.com/stanzheng/a34ff912114e0cd5d09c&#34;&gt; &lt;a href=&#34;https://gist.github.com/stanzheng/a34ff912114e0cd5d09c&#34;&gt;https://gist.github.com/stanzheng/a34ff912114e0cd5d09c&lt;/a&gt; &lt;/a&gt;   &lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt; Ken C. : &lt;a href=&#34;https://gist.github.com/metaskills/4a56a3e0691a97aa8965&#34;&gt; &lt;a href=&#34;https://gist.github.com/metaskills/4a56a3e0691a97aa8965&#34;&gt;https://gist.github.com/metaskills/4a56a3e0691a97aa8965&lt;/a&gt; &lt;/a&gt; &lt;/li&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sharpen Your Saw -  Lodash</title>
+      <link>https://blog.stanzheng.com/post/sharpen-your-saw/</link>
+      <pubDate>Sat, 14 Jun 2014 19:23:50 +0000</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/sharpen-your-saw/</guid>
+      <description>
+
+&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;Steve Hackbarth presented Sharpen your Saw, discussing problem-solving using JavaScript and other useful&amp;rdquo; utilities. Participants were encouraged to bring laptops to participate in code exercises.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s a summary of the topics covered by the Monday Norfolk.js meetup:&lt;/p&gt;
+
+&lt;p&gt;Steve Hackbarth presented Sharpen your Saw, discussing problem-solving using Javascript and other useful utilities. Participants were encouraged to bring laptops to participate in code exercises.&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt; Participants could use &lt;a href=&#34;http://jsfiddle.net&#34;&gt;jsfiddle.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;   Some of the utilities used were underscore.js and mocha.js tests.&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;Two Exercises Discussed&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt;   Write a function that determines if a word is a left hand word. A left hand word is delimited by the divide between &amp;lsquo;y h n&amp;rsquo; on the keyboard.&lt;/li&gt;
+&lt;li&gt;   Write a function that determines the longest word creatable with just left handed letters.&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;The following video was shot using Google Glass; it is cut up into 3 primary segments&lt;/p&gt;
+&lt;a href=&#34;http://youtu.be/zQYhInrIOVE&#34;&gt;-Problem and Solution Explainations-&lt;/a&gt;
+
+&lt;p&gt;Link to the Gists &lt;/p&gt;
+&lt;a href=&#34;https://gist.github.com/stanzheng/9086335&#34;&gt;-Left handed Words Validator-&lt;/a&gt;
+&lt;a href=&#34;https://gist.github.com/stanzheng/9086326&#34;&gt;-Longest Left Hand Word Generator-&lt;/a&gt;
+
+&lt;p&gt; First Problem&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/stanzheng/9086335.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt; Second Exercise&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/stanzheng/9086326.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+Be sure to join us Next Month for Beer.js
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prepping for a Technical Interview</title>
+      <link>https://blog.stanzheng.com/post/prepping-for-a-technical-interview/</link>
+      <pubDate>Tue, 18 Mar 2014 18:43:11 +0000</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/prepping-for-a-technical-interview/</guid>
+      <description>
+
+&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
+
+&lt;p&gt;I gave a talk at my local ACM about how to prepare for technical interviews. It&amp;rsquo;s a topic not emphasized  on much at my school and I wanted to give students some advice about starting and what helped me.&lt;/p&gt;
+
+&lt;h1 id=&#34;algorithms&#34;&gt;Algorithms&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Learn about &lt;a href=&#34;http://bigocheatsheet.com/&#34;&gt;Big O notation&lt;/a&gt; and try being able to recognize their O(time).&lt;/li&gt;
+&lt;li&gt;Perform two sortings. O(nLog(n)) QuickSort &amp;amp; Merge Sort maybe familiar yourself with others
+
+&lt;ul&gt;
+&lt;li&gt;Tree Traversals&lt;/li&gt;
+&lt;li&gt;in, post, pre&lt;/li&gt;
+&lt;li&gt;order,&lt;/li&gt;
+&lt;li&gt;breadth/level&lt;/li&gt;
+&lt;li&gt;depth&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;tree structures, binary, trinary, heap trees, AVL&lt;/li&gt;
+&lt;li&gt;Graph problems&amp;hellip; Dijkstra, A, common n = np problems. Know Edges and Vertices.&lt;/li&gt;
+&lt;li&gt;Learn about what  &lt;a href=&#34;https://en.wikipedia.org/wiki/P_versus_NP_problem&#34;&gt;n = np problems&lt;/a&gt;. and what makes it a n=np problem.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;links&#34;&gt;Links&lt;/h1&gt;
+
+&lt;p&gt;General Review and Tutorials
+- &lt;a href=&#34;http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=alg_index&#34;&gt;http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=alg_index&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;videos&#34;&gt;Videos&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Open Source CourseWare MIT &lt;a href=&#34;http://www.youtube.com/user/MIT&#34;&gt;http://www.youtube.com/user/MIT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Harvard CS50 &lt;a href=&#34;http://www.youtube.com/user/cs50tv&#34;&gt;http://www.youtube.com/user/cs50tv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cs.stanford.edu/people/eroberts/courses/cs106b/chapters/13-trees.pdf&#34;&gt;Tree&amp;rsquo;s sheet from Stanford&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;google-recruiter-suggested-tips&#34;&gt;Google Recruiter Suggested Tips&lt;/h2&gt;
+
+&lt;p&gt;I got these really helpful tips from a recruiter from Google. They sent me this email for the new interview round info.
+- &lt;a href=&#34;https://gist.github.com/stanzheng/9631465&#34;&gt;https://gist.github.com/stanzheng/9631465&lt;/a&gt;
+- &lt;a href=&#34;http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=alg_index&#34;&gt;http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=alg_index&lt;/a&gt;
+- &lt;a href=&#34;http://cs.stanford.edu/people/eroberts/courses/cs106b/chapters/13-trees.pdf&#34;&gt;http://cs.stanford.edu/people/eroberts/courses/cs106b/chapters/13-trees.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;stackoverflow-questions&#34;&gt;StackOverflow Questions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/210829/what-is-an-np-complete-problem&#34;&gt;http://stackoverflow.com/questions/210829/what-is-an-np-complete-problem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/111307/whats-p-np-and-why-is-it-such-a-famous-question&#34;&gt;http://stackoverflow.com/questions/111307/whats-p-np-and-why-is-it-such-a-famous-question&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Quick vs Merge &lt;a href=&#34;http://stackoverflow.com/questions/7878768/when-to-use-merge-sort-and-when-to-use-quick-sort&#34;&gt;http://stackoverflow.com/questions/7878768/when-to-use-merge-sort-and-when-to-use-quick-sort&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/4421706/operator-overloading&#34;&gt;http://stackoverflow.com/questions/4421706/operator-overloading&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use quick if you can but doesn&amp;rsquo;t always guarantee nlog(n) and can become O(n^2)&lt;/li&gt;
+&lt;li&gt;Merge sort is the best alternative when no Random Access (Stack, Queue, list) of the structure&lt;/li&gt;
+&lt;li&gt;Heap sort is also in there if quicksort starts degenerates&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CodeforAmerica in the Local News</title>
+      <link>https://blog.stanzheng.com/post/news-mentions-/</link>
+      <pubDate>Sun, 16 Mar 2014 13:58:15 +0000</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/news-mentions-/</guid>
+      <description>
+
+&lt;p&gt;I Volunteer a bunch for CodeforAmerica so we end up being mentioned once in a while.&lt;/p&gt;
+
+&lt;h1 id=&#34;virginia-pilot&#34;&gt;Virginia Pilot&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://hamptonroads.com/2013/05/hackers-put-white-hats-civic-duty-norfolk&#34;&gt;http://hamptonroads.com/2013/05/hackers-put-white-hats-civic-duty-norfolk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://hamptonroads.com/2013/04/summer-internships-outlook-improving-slowly&#34;&gt;http://hamptonroads.com/2013/04/summer-internships-outlook-improving-slowly&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;odu-news&#34;&gt;ODU News&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.odu.edu/news/2013/5/code_for_america&#34;&gt;http://www.odu.edu/news/2013/5/code_for_america&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;altdaily&#34;&gt;AltDaily&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.altdaily.com/features/news/6274-a-roundup-of-saturday-s-hack-for-change&#34;&gt;http://www.altdaily.com/features/news/6274-a-roundup-of-saturday-s-hack-for-change&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.altdaily.com/features/news/119-politics34/5273-32tracking-hrt-buses-in-real-time-let-s-make-a-transit-api&#34;&gt;http://www.altdaily.com/features/news/119-politics34/5273-32tracking-hrt-buses-in-real-time-let-s-make-a-transit-api&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.altdaily.com/features/news/7001-old-couch-theres-an-app-for-that-norfolk-launches-citizen-request-app&#34;&gt;http://www.altdaily.com/features/news/7001-old-couch-theres-an-app-for-that-norfolk-launches-citizen-request-app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.altdaily.com/features/entertainment/137-lifestyle52/7006-follow-cutiesinnorfolk-because-these-kittens-tho&#34;&gt;http://www.altdaily.com/features/entertainment/137-lifestyle52/7006-follow-cutiesinnorfolk-because-these-kittens-tho&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;pebble-developer-blog&#34;&gt;Pebble Developer Blog&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.getpebble.com/blog/2014/03/20/pebble-goes-to-pennapps/&#34;&gt;https://developer.getpebble.com/blog/2014/03/20/pebble-goes-to-pennapps/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prepping for a Google Interview</title>
+      <link>https://blog.stanzheng.com/post/notes/algorithims/</link>
+      <pubDate>Thu, 13 Mar 2014 21:43:07 +0000</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/notes/algorithims/</guid>
+      <description>&lt;p&gt;These are a bunch of notes I took when I was reading through &lt;em&gt;Cracking the Coding Interview&lt;/em&gt; in prep  for a Google Interview&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;spelling algorithms correctly is important&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;peaks&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;insertion sort always O(N^2) because going through and moving&lt;/li&gt;
+&lt;li&gt;binary sort can assist it to be O(log(n)n) for insertions but still N^2 for swaps&lt;/li&gt;
+&lt;li&gt;merge sort two arrays, sort, then merge, then split and repeat. O(log(n)n) complexity&lt;/li&gt;
+&lt;li&gt;priority queue -
+
+&lt;ul&gt;
+&lt;li&gt;maxheap, nodes are always larger than or equal to their children (max heap property)&lt;/li&gt;
+&lt;li&gt;minheap, nodes are always smaller than or equal to their children (min heap property)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;heap sort &amp;ndash; heap on a tree, (breadth first view,)
+ int array[7]; indexies
+-AVL trees
+
+&lt;ul&gt;
+&lt;li&gt;traverse = n&lt;/li&gt;
+&lt;li&gt;insert nlog(n)&lt;/li&gt;
+&lt;li&gt;delete min&lt;/li&gt;
+&lt;li&gt;find next min and max and next smaller and next min&lt;/li&gt;
+&lt;li&gt;log(n),&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Comparison Model
+   -Searching: (lng)
+   -Sorting nln(n)
+   -All input items are blackboxes
+In reality&lt;/p&gt;
+
+&lt;p&gt;Linear time sorting for not large - O(n sqrt(lnln(n))
+-Prehashing = alpha = n/m
+time, orderone = theta(1+alpha)
+(a*k)mod(2^w) &amp;gt;&amp;gt; 2^(r-w) where m = 2^r
+also k mod m - hash the function and modulus&lt;/p&gt;
+
+&lt;p&gt;Hash table properties
+- make use of all info provided by key  (Key:Value)
+- uniformly distrutes output across table
+- maps similar keys to very different hash values
+- uses only very fast operations to minimize run time.&lt;/p&gt;
+
+&lt;p&gt;TODO
+- Binary Tree / n-tree / AVL Tree / tr-tree
+   - Their Traversals
+   - Insert/delete/search
+- Make Graph / Search / Edges/Vertices
+- Quick/MergeSort&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

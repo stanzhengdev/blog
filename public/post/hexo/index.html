@@ -1,0 +1,180 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Stanley Zheng">
+		<meta name="description" content="Programmer Blog, trying to share insights and knowledge picked up along the way.">
+		<meta name="generator" content="Hugo 0.17" />
+		<title>Debugging Hexo &middot; Stanley Zheng</title>
+		<link rel="shortcut icon" href="https://blog.stanzheng.com/images/favicon.ico">
+		<link rel="stylesheet" href="https://blog.stanzheng.com/css/style.css">
+		<link rel="stylesheet" href="https://blog.stanzheng.com/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+		
+
+		
+		<link href="https://blog.stanzheng.com/index.xml" rel="alternate" type="application/rss+xml" title="Stanley Zheng" />
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://blog.stanzheng.com/'>Home</a>
+	
+
+	
+		<a href='https://stanzheng.com/'>About</a>
+	
+	
+	
+	<a class="cta" href="/subscribe">Join Mailing List</a>
+	
+
+</nav>
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>Debugging Hexo</h1>
+                    <h2 class="headline">
+                    January 15, 2014
+                    <br>
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    <p>I swapped by blog over to Hexo. Here are some issues I ran across</p>
+
+<p>Here is a quick reference to debugging hexo:</p>
+
+<ul>
+<li>huge stack error - check if all your configs are not null</li>
+<li>missing resources error - I had to edit my *.styl files to have some of the css and assets located correctly</li>
+<li>hexo server deploy wrong fork - I had a huge issue with having it push to the right fork. deleting didn&rsquo;t work and destoying didn&rsquo;t either</li>
+<li>hacking on hexo and saving it in the same directory is probably not a good idea, the project is still being updated currently</li>
+<li>use the HEXO-CNAME-GENERATOR package plugin to handle some of the errors with creating CNAME</li>
+</ul>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/stanzheng">
+                        <img class="avatar" src="https://avatars0.githubusercontent.com/u/3683993?v=3&s=466">
+                        <div>
+                            <span class="dark">Stanley Zheng</span>
+                            <span>Polyglot who loves to experiment and explore.</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fblog.stanzheng.com%2fpost%2fhexo%2f - Debugging%20Hexo by @stanzheng"><span class="icon-twitter"> Tweet</span></a>
+
+
+
+                </section>
+            </footer>
+
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'stanzheng-com';
+    var disqus_identifier = 'https:\/\/blog.stanzheng.com\/post\/hexo\/';
+    var disqus_title = 'Debugging Hexo';
+    var disqus_url = 'https:\/\/blog.stanzheng.com\/post\/hexo\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+        
+        <li>
+            <a href="https://blog.stanzheng.com/post/all-things-open/">All Things Open 2016<aside class="dates">Nov 3</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://blog.stanzheng.com/post/recurse/hello-world/">Joining Recurse Center<aside class="dates">Nov 1</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://blog.stanzheng.com/post/Blog-Necromancer/">Blog Necromancer<aside class="dates">Oct 31</aside></a>
+        </li>
+        
+   
+</ul>
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com/stanley.zheng.usa">
+        <i class="fa fa-facebook"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/stanzheng">
+        <i class="fa fa-github"></i>
+    </a>
+    
+    <a class="symbol" href="/index.xml">
+        <i class="fa fa-rss"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/stanzheng">
+        <i class="fa fa-twitter"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2016 Stanley Zheng
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://blog.stanzheng.com/js/main.js"></script>
+<script src="https://blog.stanzheng.com/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-73744856-3', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+    </body>
+</html>

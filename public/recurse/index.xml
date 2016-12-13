@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recurse-rsses on Stanley Zheng</title>
+    <link>https://blog.stanzheng.com/recurse/index.xml</link>
+    <description>Recent content in Recurse-rsses on Stanley Zheng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Dec 2016 16:50:46 -0400</lastBuildDate>
+    <atom:link href="https://blog.stanzheng.com/recurse/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RC 3: Applying to the Recurse Center</title>
+      <link>https://blog.stanzheng.com/recurse/the-application-process/</link>
+      <pubDate>Sun, 11 Dec 2016 16:50:46 -0400</pubDate>
+      
+      <guid>https://blog.stanzheng.com/recurse/the-application-process/</guid>
+      <description>
+
+&lt;pre&gt;&lt;code&gt;# ~Active Draft Advisory~
+# The content may get refined and elaborated but this is a final rough draft. To get more content out the door, I&#39;m openly publishing more of my blogs and going back to revise from feedback.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notes from past Recursers on applying to recurse helped me navigate the process and keep my sanity. &lt;a href=&#34;http://dev.jdherg.com/posts/2015/07/20/the-recurse-center-a-qa-for-past-me/&#34;&gt;John Hergenroeder&amp;rsquo;s&lt;/a&gt; was especially insightful so I hope this can do the same and add another data point.&lt;/p&gt;
+
+&lt;h1 id=&#34;high-level-timeline&#34;&gt;High-level timeline&lt;/h1&gt;
+
+&lt;p&gt;This is my timeline, I wanted to join Winter 1 which started in November so I made sure to follow up as fast as possible.&lt;/p&gt;
+
+&lt;h2 id=&#34;timeline&#34;&gt;Timeline&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;October 7  - Started Application&lt;/li&gt;
+&lt;li&gt;October 9  - Applied&lt;/li&gt;
+&lt;li&gt;October 14 - Initial Callback&lt;/li&gt;
+&lt;li&gt;October 15 - First Round interview&lt;/li&gt;
+&lt;li&gt;October 17 - Notification for Second Round&lt;/li&gt;
+&lt;li&gt;October 19 - Second Round interview&lt;/li&gt;
+&lt;li&gt;October 23 - Admission Notice&lt;/li&gt;
+&lt;li&gt;October 25 - Invited to RC Community Forum &amp;amp;&amp;amp; Github Wiki&lt;/li&gt;
+&lt;li&gt;November 7 - Day 1&lt;/li&gt;
+&lt;li&gt;February 7 - Last day
+&lt;br/&gt;
+&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;submit-an-application&#34;&gt;Submit an Application&lt;/h2&gt;
+
+&lt;p&gt;For the &lt;a href=&#34;https://www.recurse.com/apply/retreat&#34;&gt;initial application&lt;/a&gt;, it asks you a few questions and asks you to submit a succinct code gist that doesn&amp;rsquo;t use frameworks or require too much background knowledge to be understood by a reader. There are a few problems on the application pages you&amp;rsquo;re encouraged to pick or to BYOC (Bring-Your-Own-Code).&lt;/p&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t have anything on hand, so that saturday I spent the afternoon coding Boggle in Python on the CLI.
+I was nervous about choosing a right idea, looking for one that was not too simple to code but easy to understand. Making a game was sounded fine but many of the graphics libraries or rendering to browser would add more complexity so I paired down the program by just making it CLI based. At a point I was messing around with &lt;a href=&#34;https://en.wikipedia.org/wiki/Ncurses&#34;&gt;ncurses&lt;/a&gt; but after spending a few hours failing to make it bend to my will I decided &lt;code&gt;print&lt;/code&gt; would do. After finishing my program and cleaning it up, the next part was the written application. I spent the rest of the night writing and revising the written application and exhaustinly submitted the following Sunday night. After this you get a confirmation from Recurse that&amp;rsquo;d you be contacted either way in the next few days. For my code sample I implemented &lt;a href=&#34;https://gist.github.com/stanzheng/d41bd3cada14c3b6310f33f0793e4ec2&#34;&gt;Boggle/Ruzzle in python in ~200 LOC&lt;/a&gt;. In retrospect, it seems like it didnt&amp;rsquo;t matter much what the idea was but having code that was understandable and can be elaborated later on is key.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-few-days-later&#34;&gt;A few days later &amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;If you get called back, each of the subsequent interviews are scheduled through the Recurse site and take at most ~30 minutes. The interview are conducted over screen sharing and VOIP; We used Skype. You talk to two different admission officers; &lt;em&gt;Recurse Center&lt;/em&gt; admission officers are Recurse Alumni themselves and are the type of wonderful people you meet through the program. One handles the initial interview, the second handles the coding interview. The &lt;a href=&#34;https://www.recurse.com/faq&#34;&gt;Recurse Apply FAQ&lt;/a&gt; is extremely well detailed and accurate, so I won&amp;rsquo;t duplicate any comments.&lt;/p&gt;
+
+&lt;p&gt;With my initial interview, I had it with David B. It was a very casual conversation about why I wanted to do Recurse. The interview is split into two portions, one where the interviewer asks questions and the interviewer asks questions. I felt like we were moving through a million thoughts a minute and very quickly the half hour was up. I left the interview feeling like there was more to be said and was unsure if what I wanted to communicate was conveyed in the conversation. There&amp;rsquo;s not much preparation you can do for this interview besides making sure you&amp;rsquo;re succinct and on topic. Having a few mental points that you want to convey or talk about isn&amp;rsquo;t too bad but the interviewer has read your written application before so try not to regurgitate word for word specific points.&lt;/p&gt;
+
+&lt;h2 id=&#34;two-days-later&#34;&gt;Two days later&lt;/h2&gt;
+
+&lt;p&gt;I got an email @10PM on Monday for a follow-up interview. I was super relieved and excited to move on to the next stage of the process. When I went to sign up for a session there wasn&amp;rsquo;t any timeslots. I was grateful that Recurse Admissions was able to find time to squeeze me in at night. I scheduled a follow up with Simon W. to do a thirty minute Wednesday night session. For the second interview, they ask you to pair with the interviewer. You can build something else on top of preexisting code you&amp;rsquo;ve written or picked one of the suggested problems. I ended up choosing the same gist of code for the sake of time and building scoring into the program. I was super nervous and the night before re-linted my code, added unit tests and changed development workflows so the interview would go smoother.&lt;/p&gt;
+
+&lt;p&gt;We once again did it over Skype, this session was at 9pm at night. We were both US east coast based but many recursers are from all over the world. You only get 30 minutes and they go by &lt;em&gt;fast&lt;/em&gt;. I chose something relatively understandable for my game &lt;em&gt;Scoring&lt;/em&gt;. But in Boggle/Ruzzle it also has &lt;a href=&#34;http://ruzzleonline.net/ruzzle-tips-to-improve-your-ruzzle-score/&#34;&gt;dynamic bonus word scoring&lt;/a&gt; based on length and letters so it made it an interesting problem to walk through. I was going to first do simple scoring just based on the length of the words and move into multipliers. I had only done pair programming in a traditional sense in one class in college and spent a day &lt;a href=&#34;https://www.google.com/search?q=pair+programming+tips&#34;&gt;brushing up on pairing techniques&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sure enough like the first interview, 30 minutes quickly approached and we were still in the middle of refactoring, a little under half of where I&amp;rsquo;d expect I&amp;rsquo;d be at this point of the pairing session. We verbally talked about how we could attack the next portion and the session was over.&lt;/p&gt;
+
+&lt;p&gt;I felt confident I was able to eloquate myself clearly and communicate where we were going in the project. Simon W. had good feedback and was a fun navigator. He even taught me a factoid about &lt;a href=&#34;http://stackoverflow.com/questions/364802/generator-comprehension&#34;&gt;generator comprehensions which fed into sum&lt;/a&gt;. I had done Python 2.7 for most of my previous job and had only used 3x for personal projects. The tone of the interview was also very informal and overall pleasant.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-wait&#34;&gt;The Wait&lt;/h2&gt;
+
+&lt;p&gt;At this point, I was at the end, either I was in or out. This was the most nerve racking part of the process. For four days I was super anxious whether or not I would be packing up my life and moving 300 miles up to NYC. I tried to keep everything in my mind. At this point, I had been going to conferences and code retreats to keep learning and stop stressing. I got the admission notice while I was at &lt;a href=&#34;https://blog.stanzheng.com/post/all-things-open/&#34;&gt;All Things Open&lt;/a&gt;. I was extremely relieved and now anxious to know what came next.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-was-it&#34;&gt;How was it?&lt;/h2&gt;
+
+&lt;p&gt;All in all the process was very short. From the time they received my application and my admission, it was 9 days. Even less if you discount time spent waiting inbetween interviews. I liken the process to the ideal college application process if it was actually sane and transparent. With Recurse admissions everything was communicated, the process was absolutely transparent and nothing was ambiguous. The process left me feeling confident going to Recurse would be a good fit and more excited about the future. I&amp;rsquo;m at the half way point of my batch and I feel more sure than ever that this was a good choice and I hope it encourages someone to apply and maybe even calm your nerves.&lt;/p&gt;
+
+&lt;p&gt;If you want to join the world&amp;rsquo;s best programming community and become a better programmer consider &lt;a href=&#34;https://www.recurse.com/scout/click?t=710ee58e0b0ad8d9f443f9c9440137f1&#34;&gt;joining the Recurse Center&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RC 2: Organizing Your Ideas</title>
+      <link>https://blog.stanzheng.com/recurse/week-1/</link>
+      <pubDate>Sun, 20 Nov 2016 14:48:38 -0500</pubDate>
+      
+      <guid>https://blog.stanzheng.com/recurse/week-1/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;Note: The title was renamed to RC:2 from Week1 to better reflect these entries as a series but not by week&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;settling-in&#34;&gt;Settling In&lt;/h1&gt;
+
+&lt;p&gt;Each week I hope to go deeper and highlight something I&amp;rsquo;m working on at Recurse. Coming into Recurse I aimed to get into a routine and continue it throughout the twelve weeks. I read the community wikipedia and all the accounts I could find online about how I could make the most out of my time at the center.&lt;/p&gt;
+
+&lt;p&gt;I was committed to being reflective and setting up mechanisms to keep myself on track. I joined 33 other Recursers from diverse backgrounds but we all shared the goal of becoming better programmers.&lt;/p&gt;
+
+&lt;p&gt;In this entry, I wanted to share a few of the strategies I found useful to make myself more accountable during my time at Recurse. To find more about the first day, I wrote a &lt;a href=&#34;(/recurse/day-1)&#34;&gt;separate post&lt;/a&gt; detailing my Day One experience.&lt;/p&gt;
+
+&lt;h1 id=&#34;getting-organized&#34;&gt;Getting Organized&lt;/h1&gt;
+
+&lt;p&gt;Along with becoming a better programmer, I also made it a goal to become more organized with my ideas. We all have a finite amount of time and effort, and one of the hardest things is which ideas to pursue.&lt;/p&gt;
+
+&lt;h2 id=&#34;putting-my-ideas-down&#34;&gt;Putting my ideas down&lt;/h2&gt;
+
+&lt;p&gt;For organizing ideas Trello made it easy to organize my ideas setting a column for each stage of an idea:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Kelvin&lt;/code&gt;: Ideas I no longer have interest in pursuing.
+&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ice Box&lt;/code&gt;: Ideas saved to be revisted later.
+&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ideas&lt;/code&gt;: Starting point.
+&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;In Progress&lt;/code&gt;: Currently working on it!
+&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Done&lt;/code&gt;: Got to a satisfactory point.
+&lt;br/&gt;
+&lt;br/&gt;
+Each idea starts as a card under the column &lt;code&gt;Ideas&lt;/code&gt;. Every time I have a new idea, I try to write down a description of what inspired the idea and some bullet points to execute it. If I feel like I&amp;rsquo;m not going to work on it in the immediate future I shift it to &lt;code&gt;Ice Box&lt;/code&gt;. If I fall out of love with the idea or have zero interest it is move to &lt;code&gt;Kelvin&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When I start on one of the ideas, I shift it over to &lt;code&gt;In Progress&lt;/code&gt;. While working on the idea, I put down more resources and blockers. What data sets were helpful during this project? What problems did I run into that will block the execution of the idea? Eventually, the ideas progress to &lt;code&gt;Done&lt;/code&gt; but sometimes they move back to &lt;code&gt;Ice Box&lt;/code&gt; to be revisited.&lt;/p&gt;
+
+&lt;!--![recurse](/recurse/hello-world.jpg)--&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/PAdT-rZCNpvF1lMbHKbtjhwB_JK2mp26fvJkHmvt2EMPRfrmkc_-bDk8QyEqrQ3HKSk-1WzD258N_AExEgNa_EOJtAlICMDsNUnrwBQ75HHxasUtvgQOM5ZRXMZY5p7urm5hoPCRqW46zsDaSvVmTsZuiCRF6DVuv0WbW5pzPbOgGWIAL1Ss9kt4U-x9zp9NiLthNHGDqHRqJ5pb9p_qhw-G9qnbgs5v2aA5dfJwcLOs-GMHfh41osp82zHnCnp1Mi7kvSCqYSzatPTGaQs8ooQ3LikhsRrt8gScykeYmOL8YrCSjulcbhUYRzudNbJmSANdG9lD8o7ejzDr7hZFEBf-5_RMY4cUdTMZ3eg1KzDyaq_NLp-9Jm7Z-7XoHOxuzd7yLdnyu6vbUVvbAbSX4E1qjZ6zOm_zeeyiSEJ0TZJM91gn6-fZ4jUrtJ59kr1QtgMsKzeC1JYgTmXvQFp-JAJUeAanYBUgUsASYts2BuhWVm1DSvS2_j3X844ZL8glKQEZjKUEw2sgiKbKsRxxqgVLURBfCs1kgPAHDfOoSaNmcSRyKrU3t0WYXk4WyO717UQZI889sWUa-wsp7UJnESDJiZxkFuobz6NBnEyXgEdgrnx7rQ=w841-h790-no&#34; alt=&#34;Trelloboard&#34; /&gt;
+&lt;em&gt;What the list started as, many ideas are in Kelvin now&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;taking-notes&#34;&gt;Taking Notes&lt;/h2&gt;
+
+&lt;p&gt;In the past, I used a private team Slack to take meticulous notes. Slack&amp;rsquo;s support for markdown and channels made it easy to separate different topics and make use of search and code formatting.  However being on multiple other Slack Teams, it made it too easy to become distracted. To improve my focus I decided to switch off to using Google Docs instead.&lt;/p&gt;
+
+&lt;p&gt;Google Docs with the outline feature allowed me to keep a running day to day collection of all of my notes. It also made it just as seamless to jot down notes on my laptop as well as my phone. In the notes, I tended to jot down any insights and problems I ran into as they came up. A large reason how I&amp;rsquo;m able to write blog entries posts fact is by reviewing notes from that week.&lt;/p&gt;
+
+&lt;p&gt;Aside from a &lt;code&gt;Running Notes&lt;/code&gt; doc, I keep a specialized &lt;code&gt;Journal&lt;/code&gt; doc to keep a short summary of what I did each day.&lt;/p&gt;
+
+&lt;h2 id=&#34;maintaining-links&#34;&gt;Maintaining Links&lt;/h2&gt;
+
+&lt;p&gt;Slack was useful for organizing and annotating links. Changing from Slack for note keeping, I had to look for a better solution to maintaining interesting links. Google Keep was a perfect stand-in, having it tied to your Google account made it cross platform and with useful App and Chrome Extension, it is frictionless.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/ayER1VirrEg8Mj45iIurulcy9qZcvhVaCQT7pJOdn_eXxViam4BpP2Ych-4Kt4dmGxGzVA-MdRXdKB4oJ-hwMTvSMt9mO4kNdgn1J8zMDgU49yH5MzXDN0xDFpUzXHWRzj7NmW8vREvL7qIUoE0yQinxwmIhzy_wR8MlDqalovLpQhjHVTuBYgvMVPO1UaxjLccxyw4R4wULJY0rrSiRNev1mtFz_ON2qcsnIzRN4FeQUgkyHkWbIGlcOO1-OJkd9rEwrb-cz8ie944w_xe6Aiuly1lI-rFHpE3V_7xQITSQuXPL_hi_5PWPKbP_1rx4UV70XXSVeLMvZoKJqjXwZ73rAf4D0BhAUbPvBapFem7OSBmPiO08smzxlx-4-L50vHyY9D6X0onru-3c5WPqF261bLep7jnNG1WaWOMX2-ALtiaCBzhVLXackl5J3ZmiOO4TZ7gPNgWk267Cabbd8g1fJ34KwhpxU5uLjy0m6J8CajfaRcXmdh0kII22SZ5j47mcHbR-gu80dJ6AyzvPBbWgL9cQ4UhYwD8Aq83GAn3qBAM8vWTs50anV4lLX0gldXbG6EwM5Yd5MDu0yDvrySglmQzwHN2CM2TJ-blN9wDjDRtN8Q=w961-h548-no&#34; alt=&#34;Google Keep&#34; /&gt;
+&lt;em&gt;Link Mood Board&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Google Keep makes it easy to put together an idea board for saving and reflecting on cool links that other Recursers shared. It also helps declutter the bookmark toolbar and the need for syncing bookmarks across browsers and devices.&lt;/p&gt;
+
+&lt;h2 id=&#34;managing-time&#34;&gt;Managing Time&lt;/h2&gt;
+
+&lt;p&gt;Every day I strive to arrive early at the space and leave late. At the end of the day, I want to be able to reflect on what I spent my time on and more effectively tackle it the next day. I use a time tracking tool called &lt;a href=&#34;https://harvestapp.com&#34;&gt;Harvest&lt;/a&gt; to manage my time into various categories.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Categories&lt;/strong&gt;
+&lt;br/&gt;
+- &lt;code&gt;Events&lt;/code&gt;: Event&amp;rsquo;s held in the RC space.
+&lt;br/&gt;
+- &lt;code&gt;Food&lt;/code&gt;: We all have to eat sometimes. Tracking long and short lunches.
+&lt;br/&gt;
+- &lt;code&gt;Programming&lt;/code&gt;: Time I spend executing an idea.
+&lt;br/&gt;
+- &lt;code&gt;Learning&lt;/code&gt;: Time I put that I&amp;rsquo;m reading documentation or understanding a concept or field.
+&lt;br/&gt;
+- &lt;code&gt;Meetings&lt;/code&gt;: Umbrella category for 1:1s, check-ins or impromptu meetings.
+&lt;br/&gt;
+- &lt;code&gt;&amp;quot;Project Management&amp;quot;&lt;/code&gt;: A general category I put time to whether its Zulip or checking Email or reading Hacker News
+&lt;br/&gt;
+- &lt;code&gt;Fun&lt;/code&gt;: Examples are wandering Central Park or attending a Conference or Meetup.
+&lt;br/&gt;
+&lt;br/&gt;
+In addition to tracking time in Harvest, I keep myself on track by trying to timebox tasks using Pomodoro sessions. It&amp;rsquo;s hard to do meaningful code based work using &lt;sup&gt;25&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; sessions so I changed to &lt;sup&gt;55&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; upon a good recommendation. Although at the aim of the sprints are to finish the task endeavored upon, interruptions happen&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/im1xvZsP_ZiCrukV4mZhCqntGBMuTzu0w-JPCt5G7cROk0RB6XaZ0-BtdMVg59zfg6ghpofvAJI=w494-h366-no&#34; alt=&#34;Harvest&#34; /&gt;
+&lt;em&gt;Week Two at the Recurse Center&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Many of these practices evolved during my first week. I abandoned Slack after I easily found myself distracted by different channels when I went to take notes or save links. After I noticed a disparate amount of time I spent sussing out the right idea, I picked ideas from the board and attempted to spend more time Programming.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m always curious to know what techniques and process help people work on ideas that matter to them most effectively. Share below if any of this works for you or if theres a specific process that helps you.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RC 1: Orientation</title>
+      <link>https://blog.stanzheng.com/recurse/day-1/</link>
+      <pubDate>Tue, 08 Nov 2016 14:45:38 -0500</pubDate>
+      
+      <guid>https://blog.stanzheng.com/recurse/day-1/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;Note: The title was renamed to RC:1 from Day1 to better reflect these entries as a series but not by week&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Day one of RC is widely different from every other day. Its more structured and is full of presentations and  socializing. This is my personal account from my day one experience, your experience may vary. They are always changing and aiming to improve the first day experience.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-to-nyc&#34;&gt;Getting to NYC&lt;/h2&gt;
+
+&lt;p&gt;I took the bus up from Norfolk, Virginia to New York Saturday night. I spent most of Sunday with family. On Monday morning, I began my new commute from Chinatown to SoHo to the &lt;code&gt;455 Broadway space&lt;/code&gt;. On the first day, its recommended you show up at 10:00am. I explored the surrounding parts of Little Italy and Chinatown to kill some time. I settled down and had some good coffee at &lt;a href=&#34;http://happybonesnyc.com/&#34;&gt;Happy Bones&lt;/a&gt; and briefly did some work to calm my nerves.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/4y34-UiTZsU45rzAS-PTBD6d3VtIgGEh6RKm-Ie0coO-M4k8WXmuWTA5NQJ-84aogAFPxdPOKCHtoiAtmUcv6QsEwFWIkhY2gcN3padRRTet1HZ2sDONpivMFWCyjG7_XwOQSPkksG0qHRBMDDGpI5oE6m5dxMtvIr6hDIQ5o1ZYtJ7I8IDqMQlJSgcuY2UPdQ59F1xftF1Ky-tS0Rd50nBfPi_HhkunvN3nKPnZ7T1weobgsQ8M2MhjxQoUtGagKC4zUDKHeThZohUC9r3CtwUMwZT5buiT2YAd2RWLwQvI3DKEd2VXo9a0XBJ_q81wWTOmAxXAsNbRFcAbfTGhSzta5bCcOCeADsxD_LOZlBhfdlj91BJEUkJAoYHM1Fnf3A0xL3iI0z18tkkbGpvU36RJn3XM9Qy49cpIbej8SiuydDNqCdGD-pR3ayxOfmvZ8VPFTTV7d_zsk5X6cm-CquMWkkt9SEDx7IM9WahCyn8SfBnzVDaWHAsOzp0XjGhvdH7vmX5jb5QJz87hmwIfsGO6M5vpOdBYItCSBW4l601HDVgwPjhw-ot-c1S7xQfvHt2AsNh-WjgFaGt60e40JbuvrgjvUdgkJzh_gtwTUyeoQIoMeA=w1808-h1264-no&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Caffeinating&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;orientation&#34;&gt;Orientation&lt;/h2&gt;
+
+&lt;p&gt;The space is on a second floor walk up inbetween a Duande Reade and a Muji store. When I got upstairs I was greeted with a beautiful open space buzzing with people. Recurse Center works with &lt;a href=&#34;https://www.recurse.com/blog/36-overlapping-batches&#34;&gt;overlapping batches&lt;/a&gt;, people 6 weeks into their program co-mingle with the new group starting their 12-week batch. The icebreakers and intros dovetailed into lunch where we could sign up to grab lunch in the surrounding neighborhood. Recurse is luckily near Chinatown and Little Italy so there are plenty of affordable delicious diverse options to try. Our group went to &lt;a href=&#34;https://www.yelp.com/biz/vanessas-dumpling-house-new-york-2&#34;&gt;Vanessa&amp;rsquo;s Dumplings&lt;/a&gt; which I highly recommend.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/CRJkiOKTl48Lkbhu1BzR8qMJbdbf45eaK2VFfAAv9_i8L5oRhGnQFcVMvR0n5snn3IbV_2lL3adnCYxKkd1jDdr3iFLMakMTdDo12WAcacKpux003pddyX_dQmt4FN1aDLlCR9k8mqqK0EaDDjuOFBFuroNHzLSTk-qlAtQ6VS1JKH5DfQNNZP6M9AbjqJQtx2_qk-zWrZcYRkiMwXyuc-bXv5a24dGLtxhSo9vF0n-7PxkS-7KInHcUEBYiLqMiYLUxkdby11LxPATVlug09O8gOP8EBdzDbRQERSWCRVxvFpzsvfFIGGYhIdVu7MNbLsz8p8sPg2yQzJ2ra7EjROyYb7N_L52MDP0_KMGt5FwOKYQQLc9iwJ4sHDhqONZBxAlF8gcwC02MnAlLDzAzuTjqjKONHlThPavrJTuGPOU2mKunI1pvqaVoN5nUMlriAFLFq8T0BXa1Jiq64ksCHQJ_jTkizDx4t-n9sE8zMlQ2g9eNDq2x7lGlwkytQDPq8jHrHmiqBQv8U9I1xdXO5qaxon9MIoMWd-mjINu2ra7l26BhsZaBOiysLhxWboyyuf72nudSPh6PpSiAduZvygVn6cxVDNZlk354NhDr30k7ZCnQew=w1686-h1264-no&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Map of Places around Recurse&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;h1 id=&#34;workshops-and-presentations&#34;&gt;Workshops and Presentations&lt;/h1&gt;
+
+&lt;p&gt;We spun out into workshops which were graciously put on by the facilitators and the previous Fall 2 batch of students.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Build your own programming language by Marcio. &lt;a href=&#34;https://github.com/marciok/Mu&#34;&gt;His Presentation later was posted on HN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Code Dojos led by Myles: Workshop where you solve a small problem, either pairing or solo and share solutions after.&lt;/li&gt;
+&lt;li&gt;Machine Learning Overview by Mike, Nathan and Marko:  Gave an overview of the vast field of Machine Learning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/SbB4MtfQVaWQMJm3VRntFPZUsGXZbMPULJ2A_CfqaOXUVzVo30DLMTjr_C-flWK6V9ddOZ_PuD0BbFZliE8Ay9HR3p4FJ5K4v4aZaDwT5pv87Jvua3MiBt7a6jbfzQhDEHMWsIk-sN-vjvrbjGYuXLGPi_gYsM3ki_Mb7tjO-dkunEXe5wyepwXut6NMqZRpextkA4YSKoDGm2-pkj85w9X2ZrCXs9PCuXY3qSVta0YR5r-IeKkfFAFy-gOsZHkCrSLINkNUdziMmlH9QF9NCsgjxaqzpa8Qdhl1dLHSiuM_fcIxRUfv87YM5gvW_jRmMshmRJlN_q3if3OgsBVo43-GnBdnt9OAspQKqcleuh7jWPeyagElria0pB7bpG-BCz0CyeI9h6TgQLg-yNCSf_WD2ti27azz15cspuDwp4Us3nl-544kN3Xs3YFmhp8uwTUnA4OHcaZHcQM0ZkB8sUQYepmTngqIPWlvf-jwmaIUha_4t7XLDOInNsS_5LyAAL8pDKUCPx2vG9ObbRslqpKvuQS5gklmrOdVQKyAECifB_NSKJ9c298LecVn4Gz_1OAgEI_Shwxz6EZK0TfQPwuvlQR9YJsiFC3o8sxiUZAqWG7auQ=w1686-h1264-no&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Building a Programming Language using Swift&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
+
+&lt;p&gt;After a few hours of workshops, there was a schedule of presentations. Traditionally at Recurse on Thursday there are lightning talks that each person has 5 minutes to present. There was a vast diversity of talks from ones on &lt;em&gt;Teaching games to play Tic Tac Toe&lt;/em&gt;, to &lt;em&gt;Understanding Unix Tools&lt;/em&gt; and &lt;em&gt;Building Ray Tracers&lt;/em&gt;. All the presentations were wonderful and hopefully in 6 weeks, our group will be doing the same.
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/PehV42QMw5AX9_7dZpqJ-E9dOTh2xGZRXzrSXOWNYGp70Rd0W_lOVMmaOtZtGC-YW5Cf5VoXDjHVgrFUWaiVDadpqGqaM5rrbRcLlxOQCxUAdY2rPelUG3atFlawwcheKX3g0d7raS9MO3YfOoIpa5roSF6PzhfdSAQWAReA_n5Hg0cQnLI1gBIO0nr1w86QKdq1nwNzryvNSmJZyS1GYaw0CCyATWGc9bQGDU0ssIpLsiI-f4awuLBSAGWM3xVjWA3VeIRxUThwwX7wUlQ_VfzSDkfMT2qGYUuuqdprGt4W0qVAh5mr7AMvx9qMqnKcj-eAyWW8HuMG9wEJyCfjzZbPnn1a7NGn1ZECRuXH-tWOylZjQARzWXkz7l55yYdP_6sKlADJEG5Q7Tg_ciI1fnPo6aqkOomDlPUlf4qqnY6WJzu9znqj2PojvRM-9ivbWQEgzkydGL0JvMUdOsiQ_Wm-cIbiA-etMh5efNGEkbEKbo3FgbXh_EPNbriOygAVvTaC4V2WrwLOl49DoAZgV4gR1V3_HnQQiPA2HTiXhSX2GckwRgZptlb02bYR8NF7bHrfMqb9bWEDfbV13Ivf6BU4MpjtV0KH4dE2zZQpqJeH2XmtJA=w1686-h1264-no&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Presentation Main Space&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;
+After the presentations, Sonali gave the closing notes. The day was adjourned and for the rest of our twelve weeks we are in charge of our time We all had received keys to space and were introduced to the mechanisms to keep ourselves on track but largely we were in charge of our time. Recurse Center is self-directed, everyone is here for different reasons but we all want each other and ourselves to succeed. RC has facilitators, residents, check-ins-checkouts, and presentations all aimed at helping us reach our goals.&lt;/p&gt;
+
+&lt;h2 id=&#34;rc-is-a-community&#34;&gt;RC is a Community&lt;/h2&gt;
+
+&lt;p&gt;After the presentations, many of us stuck around. We talked and got to know each other more. We made weekend plans, we shared what each other were hoping to work on. We shared our backgrounds and what we hoped to do in the future. We went for pizza at this place called &lt;a href=&#34;http://www.joeypepspizza.com/index/Joey_Pepperonis_Pizza___New_York_City.html&#34;&gt;Joeys&amp;rsquo;s&lt;/a&gt;, they do dollar pizza cheese pizza slices. A group of us came back to the space and played a game called &lt;a href=&#34;http://forum.frontrowcrew.com/discussion/7294/learn-how-to-play-the-word-game-contact&#34;&gt;Contact&lt;/a&gt; for a few hours.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Goal today is to maybe write something up about hrdevfest and also about  my first week at Recurse Center &lt;a href=&#34;https://t.co/zo9QUL7GhW&#34;&gt;pic.twitter.com/zo9QUL7GhW&lt;/a&gt;&lt;/p&gt;&amp;mdash; Stanley Zheng (@StanZheng) &lt;a href=&#34;https://twitter.com/StanZheng/status/797835453642801152&#34;&gt;November 13, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;Recurse is unique. &lt;br/&gt;
+Recurse is an experiment. &lt;br/&gt;
+Recurse is what you make it. &lt;br/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

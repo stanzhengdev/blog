@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stanley Zheng</title>
+    <link>https://blog.stanzheng.com/tags/javascript/index.xml</link>
+    <description>Recent content on Stanley Zheng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://blog.stanzheng.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sharpen Your Saw -  Lodash</title>
+      <link>https://blog.stanzheng.com/post/sharpen-your-saw/</link>
+      <pubDate>Sat, 14 Jun 2014 19:23:50 +0000</pubDate>
+      
+      <guid>https://blog.stanzheng.com/post/sharpen-your-saw/</guid>
+      <description>
+
+&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;Steve Hackbarth presented Sharpen your Saw, discussing problem-solving using JavaScript and other useful&amp;rdquo; utilities. Participants were encouraged to bring laptops to participate in code exercises.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s a summary of the topics covered by the Monday Norfolk.js meetup:&lt;/p&gt;
+
+&lt;p&gt;Steve Hackbarth presented Sharpen your Saw, discussing problem-solving using Javascript and other useful utilities. Participants were encouraged to bring laptops to participate in code exercises.&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt; Participants could use &lt;a href=&#34;http://jsfiddle.net&#34;&gt;jsfiddle.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;   Some of the utilities used were underscore.js and mocha.js tests.&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;Two Exercises Discussed&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt;   Write a function that determines if a word is a left hand word. A left hand word is delimited by the divide between &amp;lsquo;y h n&amp;rsquo; on the keyboard.&lt;/li&gt;
+&lt;li&gt;   Write a function that determines the longest word creatable with just left handed letters.&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;The following video was shot using Google Glass; it is cut up into 3 primary segments&lt;/p&gt;
+&lt;a href=&#34;http://youtu.be/zQYhInrIOVE&#34;&gt;-Problem and Solution Explainations-&lt;/a&gt;
+
+&lt;p&gt;Link to the Gists &lt;/p&gt;
+&lt;a href=&#34;https://gist.github.com/stanzheng/9086335&#34;&gt;-Left handed Words Validator-&lt;/a&gt;
+&lt;a href=&#34;https://gist.github.com/stanzheng/9086326&#34;&gt;-Longest Left Hand Word Generator-&lt;/a&gt;
+
+&lt;p&gt; First Problem&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/stanzheng/9086335.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt; Second Exercise&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/stanzheng/9086326.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+Be sure to join us Next Month for Beer.js
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
