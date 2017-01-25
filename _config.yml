@@ -1,0 +1,8 @@
+title: Blog
+description: "Blog :book:  Built with Hugo. Goal is to keep up to date "
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
